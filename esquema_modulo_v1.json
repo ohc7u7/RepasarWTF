@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "properties": {
+    "codigo_fuente_bun": { "type": "string", "description": "El script completo en Bun/Express." },
+    "explicacion_decodificacion": { "type": "string", "description": "Explicacion breve de la extraccion de lat/lng." },
+    "supuestos_tecnicos": { "type": "array", "items": { "type": "string" }, "description": "Cualquier decision tecnica asumida." },
+    "next_action": { "enum": ["ask", "done"] }
+  },
+  "required": ["codigo_fuente_bun", "explicacion_decodificacion", "supuestos_tecnicos", "next_action"],
+  "additionalProperties": false
+}
