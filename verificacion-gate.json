@@ -1,0 +1,6974 @@
+{
+  "inicio": "2026-09-08T18:42:25.206Z",
+  "fin": "2026-09-08T18:42:40.214Z",
+  "fuente_sha256": "cdf421af5503cfb8bcf377f9b1ed4397e787512a011de43c2010fd55eaad810d",
+  "resultado": "gps_recibidos",
+  "servidor": "192.168.0.8:9067",
+  "modulo_id": 6,
+  "perfil_crc": "gate",
+  "estado": "recibiendo_gps",
+  "conectado": true,
+  "conexiones": 1,
+  "login_enviados": 1,
+  "bytes_recibidos": 12267,
+  "tramas_recibidas": 471,
+  "gps_recibidos": 468,
+  "crc_invalidos": 0,
+  "gps_invalidos": 2,
+  "ultimo_gps": {
+    "modulo_id": 6,
+    "instruccion": 12,
+    "maquina": 80,
+    "linea": 8,
+    "latitud": -38.82038,
+    "longitud": -72.62344,
+    "fecha": "2026-09-08T15:42:29",
+    "velocidad": 4
+  },
+  "estado_corresponde_a": "Instante anterior al cierre de la verificación",
+  "conexion_cerrada_al_finalizar": true,
+  "posiciones_guardadas": 468,
+  "origenes_distintos": 444,
+  "resumen_por_origen": [
+    {
+      "maquina": 1,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 2,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 3,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 4,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 5,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 10,
+      "linea": 1,
+      "posiciones": 2
+    },
+    {
+      "maquina": 11,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 12,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 13,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 14,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 15,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 17,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 18,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 19,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 20,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 21,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 25,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 26,
+      "linea": 1,
+      "posiciones": 2
+    },
+    {
+      "maquina": 27,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 28,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 30,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 32,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 33,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 34,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 36,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 38,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 39,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 41,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 42,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 43,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 44,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 45,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 49,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 50,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 51,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 52,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 55,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 57,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 58,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 59,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 60,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 63,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 64,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 65,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 66,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 69,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 71,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 72,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 73,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 74,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 75,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 76,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 78,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 80,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 82,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 83,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 84,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 85,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 87,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 88,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 89,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 92,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 93,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 94,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 95,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 96,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 98,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 99,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 101,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 103,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 104,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 105,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 107,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 108,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 109,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 110,
+      "linea": 1,
+      "posiciones": 1
+    },
+    {
+      "maquina": 1,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 2,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 3,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 4,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 6,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 7,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 11,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 12,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 15,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 16,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 18,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 19,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 20,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 21,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 22,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 23,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 24,
+      "linea": 2,
+      "posiciones": 2
+    },
+    {
+      "maquina": 26,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 27,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 28,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 30,
+      "linea": 2,
+      "posiciones": 2
+    },
+    {
+      "maquina": 33,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 36,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 37,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 38,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 39,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 40,
+      "linea": 2,
+      "posiciones": 3
+    },
+    {
+      "maquina": 41,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 43,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 44,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 45,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 46,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 47,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 48,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 72,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 73,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 74,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 75,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 76,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 80,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 81,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 82,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 84,
+      "linea": 2,
+      "posiciones": 2
+    },
+    {
+      "maquina": 85,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 87,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 89,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 90,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 93,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 94,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 95,
+      "linea": 2,
+      "posiciones": 1
+    },
+    {
+      "maquina": 6,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 8,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 9,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 12,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 17,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 18,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 19,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 22,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 24,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 25,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 26,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 31,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 32,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 34,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 35,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 37,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 38,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 39,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 40,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 43,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 44,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 45,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 46,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 48,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 51,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 52,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 54,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 55,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 57,
+      "linea": 3,
+      "posiciones": 3
+    },
+    {
+      "maquina": 58,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 62,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 64,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 67,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 68,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 69,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 71,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 73,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 74,
+      "linea": 3,
+      "posiciones": 2
+    },
+    {
+      "maquina": 75,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 76,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 77,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 80,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 83,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 85,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 86,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 88,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 90,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 92,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 93,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 94,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 95,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 96,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 99,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 100,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 101,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 102,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 104,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 107,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 110,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 112,
+      "linea": 3,
+      "posiciones": 2
+    },
+    {
+      "maquina": 117,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 118,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 123,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 127,
+      "linea": 3,
+      "posiciones": 1
+    },
+    {
+      "maquina": 1,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 2,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 5,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 6,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 7,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 9,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 10,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 11,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 13,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 14,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 15,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 16,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 18,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 19,
+      "linea": 6,
+      "posiciones": 2
+    },
+    {
+      "maquina": 21,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 22,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 24,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 25,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 27,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 28,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 30,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 32,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 33,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 34,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 35,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 36,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 37,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 39,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 40,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 41,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 43,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 47,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 48,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 55,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 56,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 57,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 59,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 61,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 67,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 68,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 70,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 71,
+      "linea": 6,
+      "posiciones": 2
+    },
+    {
+      "maquina": 72,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 77,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 78,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 79,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 80,
+      "linea": 6,
+      "posiciones": 1
+    },
+    {
+      "maquina": 2,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 5,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 6,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 8,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 9,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 10,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 11,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 12,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 15,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 16,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 18,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 19,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 20,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 23,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 24,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 25,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 26,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 28,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 29,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 30,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 33,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 34,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 37,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 39,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 40,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 41,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 43,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 44,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 45,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 46,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 47,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 48,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 49,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 50,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 51,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 53,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 54,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 56,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 57,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 58,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 59,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 60,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 61,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 64,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 65,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 68,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 69,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 72,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 73,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 74,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 75,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 78,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 79,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 80,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 81,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 83,
+      "linea": 7,
+      "posiciones": 1
+    },
+    {
+      "maquina": 1,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 2,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 3,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 4,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 5,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 6,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 8,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 9,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 10,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 12,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 15,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 17,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 19,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 20,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 22,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 23,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 24,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 26,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 31,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 33,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 34,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 35,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 36,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 37,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 38,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 39,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 40,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 42,
+      "linea": 8,
+      "posiciones": 2
+    },
+    {
+      "maquina": 44,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 45,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 46,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 47,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 48,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 49,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 50,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 51,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 52,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 53,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 55,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 56,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 58,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 60,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 61,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 62,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 63,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 64,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 65,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 68,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 69,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 72,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 75,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 76,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 80,
+      "linea": 8,
+      "posiciones": 2
+    },
+    {
+      "maquina": 82,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 83,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 86,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 88,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 89,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 90,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 91,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 92,
+      "linea": 8,
+      "posiciones": 2
+    },
+    {
+      "maquina": 93,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 94,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 98,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 99,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 100,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 101,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 104,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 106,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 107,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 108,
+      "linea": 8,
+      "posiciones": 2
+    },
+    {
+      "maquina": 109,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 110,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 113,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 116,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 117,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 118,
+      "linea": 8,
+      "posiciones": 1
+    },
+    {
+      "maquina": 3,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 5,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 6,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 7,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 10,
+      "linea": 9,
+      "posiciones": 2
+    },
+    {
+      "maquina": 15,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 16,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 21,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 22,
+      "linea": 9,
+      "posiciones": 2
+    },
+    {
+      "maquina": 24,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 26,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 27,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 28,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 29,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 31,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 32,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 33,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 34,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 35,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 38,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 39,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 41,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 43,
+      "linea": 9,
+      "posiciones": 2
+    },
+    {
+      "maquina": 44,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 45,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 46,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 47,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 51,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 53,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 58,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 60,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 64,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 65,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 66,
+      "linea": 9,
+      "posiciones": 2
+    },
+    {
+      "maquina": 70,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 72,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 75,
+      "linea": 9,
+      "posiciones": 2
+    },
+    {
+      "maquina": 77,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 78,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 80,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 81,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 82,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 83,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 84,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 85,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 86,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 87,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 89,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 93,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 94,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 95,
+      "linea": 9,
+      "posiciones": 1
+    },
+    {
+      "maquina": 97,
+      "linea": 9,
+      "posiciones": 2
+    },
+    {
+      "maquina": 27,
+      "linea": 14,
+      "posiciones": 1
+    },
+    {
+      "maquina": 58,
+      "linea": 14,
+      "posiciones": 1
+    },
+    {
+      "maquina": 59,
+      "linea": 14,
+      "posiciones": 1
+    },
+    {
+      "maquina": 60,
+      "linea": 14,
+      "posiciones": 1
+    },
+    {
+      "maquina": 89,
+      "linea": 14,
+      "posiciones": 1
+    },
+    {
+      "maquina": 50,
+      "linea": 19,
+      "posiciones": 1
+    },
+    {
+      "maquina": 28,
+      "linea": 20,
+      "posiciones": 1
+    },
+    {
+      "maquina": 29,
+      "linea": 20,
+      "posiciones": 1
+    },
+    {
+      "maquina": 37,
+      "linea": 20,
+      "posiciones": 2
+    },
+    {
+      "maquina": 44,
+      "linea": 20,
+      "posiciones": 1
+    },
+    {
+      "maquina": 77,
+      "linea": 31,
+      "posiciones": 1
+    },
+    {
+      "maquina": 113,
+      "linea": 31,
+      "posiciones": 1
+    },
+    {
+      "maquina": 1,
+      "linea": 33,
+      "posiciones": 1
+    },
+    {
+      "maquina": 2,
+      "linea": 33,
+      "posiciones": 1
+    },
+    {
+      "maquina": 3,
+      "linea": 33,
+      "posiciones": 1
+    },
+    {
+      "maquina": 6,
+      "linea": 33,
+      "posiciones": 1
+    },
+    {
+      "maquina": 7,
+      "linea": 33,
+      "posiciones": 1
+    },
+    {
+      "maquina": 9,
+      "linea": 33,
+      "posiciones": 1
+    },
+    {
+      "maquina": 19,
+      "linea": 33,
+      "posiciones": 1
+    },
+    {
+      "maquina": 20,
+      "linea": 33,
+      "posiciones": 1
+    },
+    {
+      "maquina": 24,
+      "linea": 33,
+      "posiciones": 1
+    },
+    {
+      "maquina": 25,
+      "linea": 33,
+      "posiciones": 1
+    }
+  ],
+  "errores": [
+    {
+      "fecha": "2026-09-08T18:42:29.506Z",
+      "evento": "gps_invalido",
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 27,
+      "linea": 8,
+      "mensaje": "Coordenadas GPS fuera de rango",
+      "longitud_bytes": 42,
+      "campos_invalidos": {
+        "latitud_decodificada": -387.58671,
+        "longitud_decodificada": -726.21971,
+        "rango_latitud": "-90 a 90",
+        "rango_longitud": "-180 a 180",
+        "divisor_aplicado": -100000
+      },
+      "datos_decimales": "12-27-8-2-79-105-15-4-84-31-147-8-9-26-18-42-157-26-27-1-93-237-21-99-0-0-0-0-0-0-0-0-0-0-0-0-27-7-91-2-33-159"
+    },
+    {
+      "fecha": "2026-09-08T18:42:31.426Z",
+      "evento": "gps_invalido",
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 126,
+      "linea": 3,
+      "mensaje": "Coordenadas GPS fuera de rango",
+      "longitud_bytes": 42,
+      "campos_invalidos": {
+        "latitud_decodificada": -387.14878,
+        "longitud_decodificada": -726.30552,
+        "rango_latitud": "-90 a 90",
+        "rango_longitud": "-180 a 180",
+        "divisor_aplicado": -100000
+      },
+      "datos_decimales": "12-126-3-2-78-189-254-4-84-65-24-8-9-26-18-42-159-0-36-1-59-237-29-99-0-0-0-0-0-0-0-0-0-0-0-0-27-7-251-7-33-156"
+    }
+  ],
+  "posiciones": [
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 40,
+      "linea": 2,
+      "latitud": -38.74722,
+      "longitud": -72.61127,
+      "fecha": "2026-09-08T15:42:00",
+      "velocidad": 42
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 71,
+      "linea": 6,
+      "latitud": -38.70498,
+      "longitud": -72.54678,
+      "fecha": "2026-09-08T15:42:14",
+      "velocidad": 40
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 20,
+      "linea": 8,
+      "latitud": -38.75252,
+      "longitud": -72.61817,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 10
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 5,
+      "linea": 6,
+      "latitud": -38.72116,
+      "longitud": -72.61971,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 14
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 60,
+      "linea": 7,
+      "latitud": -38.69346,
+      "longitud": -72.53911,
+      "fecha": "2026-09-08T15:42:24",
+      "velocidad": 36
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 30,
+      "linea": 1,
+      "latitud": -38.67842,
+      "longitud": -72.50096,
+      "fecha": "2026-09-08T15:42:22",
+      "velocidad": 9
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 37,
+      "linea": 2,
+      "latitud": -38.7633,
+      "longitud": -72.76184,
+      "fecha": "2026-09-08T15:42:22",
+      "velocidad": 30
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 51,
+      "linea": 7,
+      "latitud": -38.73506,
+      "longitud": -72.61075,
+      "fecha": "2026-09-08T15:42:24",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 86,
+      "linea": 3,
+      "latitud": -38.69061,
+      "longitud": -72.65711,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 34
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 85,
+      "linea": 2,
+      "latitud": -38.70263,
+      "longitud": -72.5408,
+      "fecha": "2026-09-08T15:42:23",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 1,
+      "linea": 2,
+      "latitud": -38.76801,
+      "longitud": -72.76681,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 24
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 94,
+      "linea": 8,
+      "latitud": -38.73841,
+      "longitud": -72.5981,
+      "fecha": "2026-09-08T15:42:24",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 103,
+      "linea": 1,
+      "latitud": -38.73761,
+      "longitud": -72.59524,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 47,
+      "linea": 2,
+      "latitud": -38.76272,
+      "longitud": -72.77515,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 12
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 116,
+      "linea": 8,
+      "latitud": -38.74652,
+      "longitud": -72.60916,
+      "fecha": "2026-09-08T15:42:24",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 89,
+      "linea": 1,
+      "latitud": -38.73491,
+      "longitud": -72.57755,
+      "fecha": "2026-09-08T15:42:22",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 90,
+      "linea": 3,
+      "latitud": -38.73684,
+      "longitud": -72.59319,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 29
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 19,
+      "linea": 6,
+      "latitud": -38.71558,
+      "longitud": -72.55441,
+      "fecha": "2026-09-08T15:42:11",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 75,
+      "linea": 3,
+      "latitud": -38.73629,
+      "longitud": -72.58714,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 5
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 60,
+      "linea": 9,
+      "latitud": -38.7275,
+      "longitud": -72.55667,
+      "fecha": "2026-09-08T15:42:22",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 7,
+      "linea": 6,
+      "latitud": -38.73261,
+      "longitud": -72.56524,
+      "fecha": "2026-09-08T15:42:22",
+      "velocidad": 31
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 32,
+      "linea": 9,
+      "latitud": -38.71873,
+      "longitud": -72.62013,
+      "fecha": "2026-09-08T15:42:24",
+      "velocidad": 26
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 78,
+      "linea": 9,
+      "latitud": -38.72252,
+      "longitud": -72.56313,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 26
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 94,
+      "linea": 2,
+      "latitud": -38.7677,
+      "longitud": -72.76549,
+      "fecha": "2026-09-08T15:42:24",
+      "velocidad": 47
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 10,
+      "linea": 9,
+      "latitud": -38.68678,
+      "longitud": -72.65749,
+      "fecha": "2026-09-08T15:42:12",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 40,
+      "linea": 2,
+      "latitud": -38.74642,
+      "longitud": -72.61029,
+      "fecha": "2026-09-08T15:42:16",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 7,
+      "linea": 33,
+      "latitud": -38.73353,
+      "longitud": -72.58744,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 57,
+      "linea": 3,
+      "latitud": -38.73849,
+      "longitud": -72.58765,
+      "fecha": "2026-09-08T15:42:17",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 45,
+      "linea": 9,
+      "latitud": -38.72462,
+      "longitud": -72.56219,
+      "fecha": "2026-09-08T15:42:22",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 58,
+      "linea": 14,
+      "latitud": -38.71891,
+      "longitud": -72.56751,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 33,
+      "linea": 2,
+      "latitud": -38.7544,
+      "longitud": -72.61989,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 35
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 2,
+      "linea": 6,
+      "latitud": 0,
+      "longitud": 0,
+      "fecha": "2026-09-08T15:42:22",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 65,
+      "linea": 1,
+      "latitud": -38.68176,
+      "longitud": -72.50752,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 12,
+      "linea": 1,
+      "latitud": -38.71788,
+      "longitud": -72.56744,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 10,
+      "linea": 1,
+      "latitud": -38.73863,
+      "longitud": -72.58186,
+      "fecha": "2026-09-08T15:42:23",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 76,
+      "linea": 1,
+      "latitud": -38.73111,
+      "longitud": -72.6266,
+      "fecha": "2026-09-08T15:42:23",
+      "velocidad": 14
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 75,
+      "linea": 8,
+      "latitud": -38.74457,
+      "longitud": -72.58783,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 24,
+      "linea": 7,
+      "latitud": -38.73115,
+      "longitud": -72.62129,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 12
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 49,
+      "linea": 8,
+      "latitud": -38.77182,
+      "longitud": -72.58372,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 49,
+      "linea": 1,
+      "latitud": -38.71078,
+      "longitud": -72.55167,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 28
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 9,
+      "linea": 6,
+      "latitud": -38.67,
+      "longitud": -72.50182,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 69
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 82,
+      "linea": 2,
+      "latitud": -38.77009,
+      "longitud": -72.76042,
+      "fecha": "2026-09-08T15:42:23",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 1,
+      "linea": 8,
+      "latitud": -38.76284,
+      "longitud": -72.60506,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 35
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 33,
+      "linea": 7,
+      "latitud": -38.72912,
+      "longitud": -72.58081,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 36,
+      "linea": 1,
+      "latitud": -38.70804,
+      "longitud": -72.5513,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 4,
+      "linea": 1,
+      "latitud": -38.68001,
+      "longitud": -72.50949,
+      "fecha": "2026-09-08T15:42:23",
+      "velocidad": 18
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 9,
+      "linea": 3,
+      "latitud": -38.7373,
+      "longitud": -72.58606,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 93,
+      "linea": 9,
+      "latitud": -38.70243,
+      "longitud": -72.64926,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 3
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 20,
+      "linea": 2,
+      "latitud": -38.75673,
+      "longitud": -72.74241,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 55,
+      "linea": 1,
+      "latitud": -38.73702,
+      "longitud": -72.60137,
+      "fecha": "2026-09-08T15:42:23",
+      "velocidad": 10
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 6,
+      "linea": 7,
+      "latitud": -38.7118,
+      "longitud": -72.6623,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 30
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 29,
+      "linea": 9,
+      "latitud": -38.68656,
+      "longitud": -72.65759,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 84,
+      "linea": 9,
+      "latitud": -38.71384,
+      "longitud": -72.63453,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 117,
+      "linea": 3,
+      "latitud": -38.78795,
+      "longitud": -72.5715,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 83
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 77,
+      "linea": 9,
+      "latitud": -38.68671,
+      "longitud": -72.65711,
+      "fecha": "2026-09-08T15:42:24",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 2,
+      "linea": 1,
+      "latitud": -38.73374,
+      "longitud": -72.61458,
+      "fecha": "2026-09-08T15:42:24",
+      "velocidad": 8
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 29,
+      "linea": 20,
+      "latitud": -39.31525,
+      "longitud": -72.23276,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 55,
+      "linea": 3,
+      "latitud": -38.74644,
+      "longitud": -72.58829,
+      "fecha": "2026-09-08T15:42:23",
+      "velocidad": 34
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 89,
+      "linea": 9,
+      "latitud": -38.71769,
+      "longitud": -72.65338,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 12
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 20,
+      "linea": 1,
+      "latitud": -38.74822,
+      "longitud": -72.63603,
+      "fecha": "2026-09-08T15:42:23",
+      "velocidad": 43
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 83,
+      "linea": 9,
+      "latitud": -38.71416,
+      "longitud": -72.63437,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 10
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 74,
+      "linea": 3,
+      "latitud": -38.74548,
+      "longitud": -72.58808,
+      "fecha": "2026-09-08T15:42:16",
+      "velocidad": 2
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 15,
+      "linea": 6,
+      "latitud": -38.77521,
+      "longitud": -72.60732,
+      "fecha": "2026-09-08T15:42:22",
+      "velocidad": 39
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 9,
+      "linea": 7,
+      "latitud": -38.70853,
+      "longitud": -72.66251,
+      "fecha": "2026-09-08T15:42:24",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 50,
+      "linea": 19,
+      "latitud": -38.71489,
+      "longitud": -72.63055,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 16
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 52,
+      "linea": 8,
+      "latitud": -38.73853,
+      "longitud": -72.58196,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 59,
+      "linea": 7,
+      "latitud": -38.72507,
+      "longitud": -72.632,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 27
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 57,
+      "linea": 6,
+      "latitud": -38.7353,
+      "longitud": -72.63328,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 59,
+      "linea": 1,
+      "latitud": -38.68037,
+      "longitud": -72.5002,
+      "fecha": "2026-09-08T15:42:24",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 82,
+      "linea": 1,
+      "latitud": -38.71224,
+      "longitud": -72.55276,
+      "fecha": "2026-09-08T15:42:24",
+      "velocidad": 39
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 74,
+      "linea": 1,
+      "latitud": -38.69986,
+      "longitud": -72.53709,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 35
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 81,
+      "linea": 7,
+      "latitud": -38.71107,
+      "longitud": -72.55871,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 20
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 26,
+      "linea": 1,
+      "latitud": -38.69368,
+      "longitud": -72.52449,
+      "fecha": "2026-09-08T15:42:21",
+      "velocidad": 43
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 34,
+      "linea": 6,
+      "latitud": -38.68983,
+      "longitud": -72.51677,
+      "fecha": "2026-09-08T15:42:24",
+      "velocidad": 47
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 26,
+      "linea": 3,
+      "latitud": -38.7358,
+      "longitud": -72.59297,
+      "fecha": "2026-09-08T15:42:24",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 22,
+      "linea": 3,
+      "latitud": -38.71432,
+      "longitud": -72.61954,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 17
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 31,
+      "linea": 8,
+      "latitud": -38.76819,
+      "longitud": -72.61604,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 34,
+      "linea": 8,
+      "latitud": -38.76999,
+      "longitud": -72.59303,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 73,
+      "linea": 7,
+      "latitud": -38.72786,
+      "longitud": -72.62088,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 21
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 33,
+      "linea": 8,
+      "latitud": -38.7722,
+      "longitud": -72.58377,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 27
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 100,
+      "linea": 8,
+      "latitud": -38.74557,
+      "longitud": -72.58811,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 44,
+      "linea": 7,
+      "latitud": -38.73815,
+      "longitud": -72.61705,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 29
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 14,
+      "linea": 1,
+      "latitud": -38.71925,
+      "longitud": -72.55756,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 40
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 23,
+      "linea": 8,
+      "latitud": -38.73854,
+      "longitud": -72.58177,
+      "fecha": "2026-09-08T15:42:24",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 92,
+      "linea": 3,
+      "latitud": -38.68918,
+      "longitud": -72.65384,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 10
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 26,
+      "linea": 9,
+      "latitud": -38.71029,
+      "longitud": -72.65322,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 11
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 5,
+      "linea": 1,
+      "latitud": -38.73723,
+      "longitud": -72.59808,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 69,
+      "linea": 1,
+      "latitud": -38.67697,
+      "longitud": -72.50624,
+      "fecha": "2026-09-08T15:42:24",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 1,
+      "linea": 6,
+      "latitud": -38.72254,
+      "longitud": -72.55484,
+      "fecha": "2026-09-08T15:42:24",
+      "velocidad": 19
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 72,
+      "linea": 9,
+      "latitud": -38.70428,
+      "longitud": -72.64619,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 22
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 24,
+      "linea": 2,
+      "latitud": -38.73918,
+      "longitud": -72.59992,
+      "fecha": "2026-09-08T15:42:17",
+      "velocidad": 31
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 82,
+      "linea": 9,
+      "latitud": -38.7139,
+      "longitud": -72.65315,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 35
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 6,
+      "linea": 33,
+      "latitud": -38.49118,
+      "longitud": -72.2479,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 54
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 18,
+      "linea": 6,
+      "latitud": -38.72536,
+      "longitud": -72.5614,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 32
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 55,
+      "linea": 6,
+      "latitud": -38.86872,
+      "longitud": -72.61239,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 32
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 100,
+      "linea": 3,
+      "latitud": -38.72249,
+      "longitud": -72.62487,
+      "fecha": "2026-09-08T15:42:24",
+      "velocidad": 33
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 77,
+      "linea": 31,
+      "latitud": -39.03978,
+      "longitud": -72.66183,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 89
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 43,
+      "linea": 9,
+      "latitud": -38.68659,
+      "longitud": -72.65722,
+      "fecha": "2026-09-08T15:42:15",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 89,
+      "linea": 8,
+      "latitud": -38.7693,
+      "longitud": -72.58663,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 51,
+      "linea": 3,
+      "latitud": -38.73956,
+      "longitud": -72.58793,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 6
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 90,
+      "linea": 8,
+      "latitud": -38.77121,
+      "longitud": -72.58324,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 17,
+      "linea": 1,
+      "latitud": -38.73809,
+      "longitud": -72.62944,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 33,
+      "linea": 1,
+      "latitud": -38.73077,
+      "longitud": -72.62649,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 4
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 64,
+      "linea": 1,
+      "latitud": -38.73015,
+      "longitud": -72.62584,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 80,
+      "linea": 6,
+      "latitud": -38.73828,
+      "longitud": -72.58387,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 58,
+      "linea": 3,
+      "latitud": -38.81301,
+      "longitud": -72.60128,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 46
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 72,
+      "linea": 2,
+      "latitud": -38.74271,
+      "longitud": -72.60524,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 69,
+      "linea": 3,
+      "latitud": -38.71491,
+      "longitud": -72.63152,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 3,
+      "linea": 1,
+      "latitud": -38.76112,
+      "longitud": -72.74195,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 29
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 47,
+      "linea": 8,
+      "latitud": -38.77822,
+      "longitud": -72.59653,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 24
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 44,
+      "linea": 8,
+      "latitud": -38.87091,
+      "longitud": -72.61593,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 23
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 18,
+      "linea": 1,
+      "latitud": -38.72579,
+      "longitud": -72.57549,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 24
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 28,
+      "linea": 7,
+      "latitud": -38.73763,
+      "longitud": -72.59487,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 14
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 73,
+      "linea": 2,
+      "latitud": -38.70263,
+      "longitud": -72.54072,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 19,
+      "linea": 2,
+      "latitud": -38.76095,
+      "longitud": -72.72065,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 30
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 64,
+      "linea": 9,
+      "latitud": -38.72709,
+      "longitud": -72.62302,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 39,
+      "linea": 8,
+      "latitud": -38.77342,
+      "longitud": -72.58841,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 41
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 37,
+      "linea": 3,
+      "latitud": -38.73346,
+      "longitud": -72.60055,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 22
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 61,
+      "linea": 7,
+      "latitud": -38.73769,
+      "longitud": -72.58755,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 23
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 51,
+      "linea": 9,
+      "latitud": -38.68646,
+      "longitud": -72.6577,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 35,
+      "linea": 9,
+      "latitud": -38.73801,
+      "longitud": -72.59848,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 19
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 107,
+      "linea": 3,
+      "latitud": -38.67515,
+      "longitud": -72.69676,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 52
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 88,
+      "linea": 8,
+      "latitud": -38.75559,
+      "longitud": -72.74382,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 37,
+      "linea": 20,
+      "latitud": -39.27886,
+      "longitud": -72.22746,
+      "fecha": "2026-09-08T15:42:14",
+      "velocidad": 17
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 26,
+      "linea": 8,
+      "latitud": -38.74299,
+      "longitud": -72.60239,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 11
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 47,
+      "linea": 9,
+      "latitud": -38.73733,
+      "longitud": -72.58038,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 16
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 5,
+      "linea": 7,
+      "latitud": -38.72535,
+      "longitud": -72.63003,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 46
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 77,
+      "linea": 3,
+      "latitud": -38.69756,
+      "longitud": -72.65472,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 44
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 40,
+      "linea": 7,
+      "latitud": -38.71396,
+      "longitud": -72.64657,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 27
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 108,
+      "linea": 8,
+      "latitud": -38.8289,
+      "longitud": -72.62162,
+      "fecha": "2026-09-08T15:42:19",
+      "velocidad": 41
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 66,
+      "linea": 9,
+      "latitud": -38.73422,
+      "longitud": -72.59673,
+      "fecha": "2026-09-08T15:42:17",
+      "velocidad": 27
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 2,
+      "linea": 2,
+      "latitud": -38.75376,
+      "longitud": -72.60687,
+      "fecha": "2026-09-08T15:42:23",
+      "velocidad": 42
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 112,
+      "linea": 3,
+      "latitud": -38.73977,
+      "longitud": -72.5866,
+      "fecha": "2026-09-08T15:42:19",
+      "velocidad": 27
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 11,
+      "linea": 2,
+      "latitud": -38.7363,
+      "longitud": -72.57927,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 24,
+      "linea": 8,
+      "latitud": -38.77764,
+      "longitud": -72.68316,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 62
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 30,
+      "linea": 2,
+      "latitud": -38.71555,
+      "longitud": -72.55494,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 36
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 76,
+      "linea": 2,
+      "latitud": -38.70298,
+      "longitud": -72.54317,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 27
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 33,
+      "linea": 6,
+      "latitud": -38.73754,
+      "longitud": -72.5892,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 37,
+      "linea": 7,
+      "latitud": -38.72286,
+      "longitud": -72.63615,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 41
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 77,
+      "linea": 6,
+      "latitud": -38.71563,
+      "longitud": -72.55439,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 27,
+      "linea": 6,
+      "latitud": -38.6332,
+      "longitud": -72.44139,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 40,
+      "linea": 8,
+      "latitud": -38.75329,
+      "longitud": -72.65108,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 113,
+      "linea": 8,
+      "latitud": -38.74079,
+      "longitud": -72.60267,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 110,
+      "linea": 8,
+      "latitud": -38.77532,
+      "longitud": -72.60509,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 6,
+      "linea": 8,
+      "latitud": -38.73469,
+      "longitud": -72.57767,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 12
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 96,
+      "linea": 3,
+      "latitud": -38.68869,
+      "longitud": -72.65775,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 85,
+      "linea": 1,
+      "latitud": -38.73267,
+      "longitud": -72.57509,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 1
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 9,
+      "linea": 8,
+      "latitud": -38.75612,
+      "longitud": -72.641,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 39,
+      "linea": 6,
+      "latitud": -38.72606,
+      "longitud": -72.6133,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 24
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 25,
+      "linea": 1,
+      "latitud": -38.67713,
+      "longitud": -72.50048,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 27
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 17,
+      "linea": 3,
+      "latitud": -38.71592,
+      "longitud": -72.62852,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 99,
+      "linea": 1,
+      "latitud": -38.73811,
+      "longitud": -72.58538,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 54,
+      "linea": 3,
+      "latitud": -38.71463,
+      "longitud": -72.63156,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 5
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 28,
+      "linea": 1,
+      "latitud": -38.73644,
+      "longitud": -72.59807,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 10
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 53,
+      "linea": 9,
+      "latitud": -38.7347,
+      "longitud": -72.61139,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 80,
+      "linea": 3,
+      "latitud": -38.7379,
+      "longitud": -72.58753,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 2
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 57,
+      "linea": 1,
+      "latitud": -38.73687,
+      "longitud": -72.60048,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 6,
+      "linea": 3,
+      "latitud": -38.73659,
+      "longitud": -72.58843,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 24,
+      "linea": 9,
+      "latitud": -38.71509,
+      "longitud": -72.63055,
+      "fecha": "2026-09-08T15:42:25",
+      "velocidad": 35
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 42,
+      "linea": 8,
+      "latitud": -38.73238,
+      "longitud": -72.63998,
+      "fecha": "2026-09-08T15:42:16",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 83,
+      "linea": 1,
+      "latitud": -38.75507,
+      "longitud": -72.64636,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 33,
+      "linea": 9,
+      "latitud": -38.73827,
+      "longitud": -72.5985,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 15
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 24,
+      "linea": 3,
+      "latitud": -38.73507,
+      "longitud": -72.59109,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 16
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 75,
+      "linea": 1,
+      "latitud": -38.73304,
+      "longitud": -72.6161,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 17
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 60,
+      "linea": 1,
+      "latitud": -38.73662,
+      "longitud": -72.58786,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 6
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 6,
+      "linea": 2,
+      "latitud": -38.75452,
+      "longitud": -72.62696,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 52
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 39,
+      "linea": 3,
+      "latitud": -38.83449,
+      "longitud": -72.52193,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 65
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 65,
+      "linea": 7,
+      "latitud": -38.73639,
+      "longitud": -72.60421,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 17
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 15,
+      "linea": 7,
+      "latitud": -38.71377,
+      "longitud": -72.64499,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 52,
+      "linea": 1,
+      "latitud": -38.73277,
+      "longitud": -72.57508,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 8
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 29,
+      "linea": 7,
+      "latitud": -38.71563,
+      "longitud": -72.63011,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 51,
+      "linea": 1,
+      "latitud": -38.70013,
+      "longitud": -72.53566,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 37,
+      "linea": 6,
+      "latitud": -38.75452,
+      "longitud": -72.62749,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 46
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 43,
+      "linea": 3,
+      "latitud": -38.71517,
+      "longitud": -72.63095,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 12,
+      "linea": 7,
+      "latitud": -38.67757,
+      "longitud": -72.50068,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 14
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 59,
+      "linea": 6,
+      "latitud": -38.71136,
+      "longitud": -72.63502,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 93,
+      "linea": 1,
+      "latitud": -38.77226,
+      "longitud": -72.76707,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 24
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 41,
+      "linea": 2,
+      "latitud": -38.72485,
+      "longitud": -72.57151,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 24
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 22,
+      "linea": 6,
+      "latitud": -38.73114,
+      "longitud": -72.62663,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 12
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 75,
+      "linea": 2,
+      "latitud": -38.73835,
+      "longitud": -72.58369,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 39,
+      "linea": 1,
+      "latitud": -38.75657,
+      "longitud": -72.64012,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 56,
+      "linea": 7,
+      "latitud": -38.73547,
+      "longitud": -72.60942,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 32
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 127,
+      "linea": 3,
+      "latitud": -38.73026,
+      "longitud": -72.61118,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 34
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 71,
+      "linea": 6,
+      "latitud": -38.70402,
+      "longitud": -72.54516,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 45
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 5,
+      "linea": 9,
+      "latitud": -38.73598,
+      "longitud": -72.57878,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 43,
+      "linea": 6,
+      "latitud": -38.73254,
+      "longitud": -72.59361,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 25
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 22,
+      "linea": 9,
+      "latitud": -38.71589,
+      "longitud": -72.56118,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 25
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 19,
+      "linea": 33,
+      "latitud": -38.55719,
+      "longitud": -72.45314,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 74
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 11,
+      "linea": 1,
+      "latitud": -38.7647,
+      "longitud": -72.7348,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 82
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 15,
+      "linea": 9,
+      "latitud": -38.73404,
+      "longitud": -72.61379,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 80,
+      "linea": 8,
+      "latitud": -38.82038,
+      "longitud": -72.62344,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 4
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 95,
+      "linea": 9,
+      "latitud": -38.68689,
+      "longitud": -72.6573,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 60,
+      "linea": 8,
+      "latitud": -38.73646,
+      "longitud": -72.57961,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 5
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 84,
+      "linea": 2,
+      "latitud": -38.72409,
+      "longitud": -72.56813,
+      "fecha": "2026-09-08T15:42:18",
+      "velocidad": 29
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 75,
+      "linea": 9,
+      "latitud": -38.7366,
+      "longitud": -72.6024,
+      "fecha": "2026-09-08T15:42:19",
+      "velocidad": 49
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 34,
+      "linea": 7,
+      "latitud": -38.71972,
+      "longitud": -72.56812,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 22
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 108,
+      "linea": 1,
+      "latitud": -38.67695,
+      "longitud": -72.50607,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 27,
+      "linea": 14,
+      "latitud": -38.71894,
+      "longitud": -72.55245,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 97,
+      "linea": 9,
+      "latitud": -38.73305,
+      "longitud": -72.60134,
+      "fecha": "2026-09-08T15:42:21",
+      "velocidad": 34
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 93,
+      "linea": 3,
+      "latitud": -38.7969,
+      "longitud": -72.56754,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 54
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 19,
+      "linea": 6,
+      "latitud": -38.71558,
+      "longitud": -72.55441,
+      "fecha": "2026-09-08T15:42:26",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 45,
+      "linea": 2,
+      "latitud": -38.75408,
+      "longitud": -72.6203,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 14
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 12,
+      "linea": 8,
+      "latitud": -38.74869,
+      "longitud": -72.6092,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 6
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 41,
+      "linea": 7,
+      "latitud": -38.70249,
+      "longitud": -72.54944,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 4
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 79,
+      "linea": 6,
+      "latitud": -38.71566,
+      "longitud": -72.55407,
+      "fecha": "2026-09-08T15:42:27",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 86,
+      "linea": 8,
+      "latitud": -38.77133,
+      "longitud": -72.58314,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 109,
+      "linea": 8,
+      "latitud": -38.73471,
+      "longitud": -72.61207,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 72,
+      "linea": 1,
+      "latitud": -38.76092,
+      "longitud": -72.71414,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 101
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 41,
+      "linea": 1,
+      "latitud": -38.67968,
+      "longitud": -72.50864,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 37
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 34,
+      "linea": 9,
+      "latitud": -38.72938,
+      "longitud": -72.62052,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 18
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 87,
+      "linea": 1,
+      "latitud": -38.71843,
+      "longitud": -72.5625,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 58,
+      "linea": 8,
+      "latitud": -38.73618,
+      "longitud": -72.58707,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 90,
+      "linea": 2,
+      "latitud": -38.75901,
+      "longitud": -72.63111,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 4,
+      "linea": 2,
+      "latitud": -38.75662,
+      "longitud": -72.64045,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 69,
+      "linea": 7,
+      "latitud": -38.71817,
+      "longitud": -72.65111,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 22
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 36,
+      "linea": 2,
+      "latitud": -38.76489,
+      "longitud": -72.73854,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 72
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 40,
+      "linea": 2,
+      "latitud": -38.74642,
+      "longitud": -72.61027,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 94,
+      "linea": 9,
+      "latitud": -38.68526,
+      "longitud": -72.65193,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 13
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 18,
+      "linea": 3,
+      "latitud": -38.87141,
+      "longitud": -72.38662,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 46,
+      "linea": 9,
+      "latitud": -38.73725,
+      "longitud": -72.59782,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 4
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 68,
+      "linea": 8,
+      "latitud": -38.77166,
+      "longitud": -72.58341,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 58,
+      "linea": 9,
+      "latitud": -38.68727,
+      "longitud": -72.65358,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 26
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 85,
+      "linea": 9,
+      "latitud": -38.70845,
+      "longitud": -72.63797,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 39
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 118,
+      "linea": 8,
+      "latitud": -38.74111,
+      "longitud": -72.60307,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 6,
+      "linea": 9,
+      "latitud": -38.73744,
+      "longitud": -72.58927,
+      "fecha": "2026-09-08T15:42:19",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 43,
+      "linea": 7,
+      "latitud": -38.737,
+      "longitud": -72.58318,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 92,
+      "linea": 8,
+      "latitud": 0,
+      "longitud": 0,
+      "fecha": "2026-09-08T15:42:19",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 20,
+      "linea": 7,
+      "latitud": -38.7296,
+      "longitud": -72.62659,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 53,
+      "linea": 7,
+      "latitud": -38.72804,
+      "longitud": -72.57897,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 55
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 92,
+      "linea": 1,
+      "latitud": -38.67847,
+      "longitud": -72.50488,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 30
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 11,
+      "linea": 7,
+      "latitud": -38.71368,
+      "longitud": -72.64492,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 72,
+      "linea": 8,
+      "latitud": -38.73721,
+      "longitud": -72.59795,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 72,
+      "linea": 7,
+      "latitud": -38.71355,
+      "longitud": -72.64503,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 74,
+      "linea": 7,
+      "latitud": -38.72881,
+      "longitud": -72.62059,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 39
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 75,
+      "linea": 7,
+      "latitud": -38.73637,
+      "longitud": -72.58968,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 105,
+      "linea": 1,
+      "latitud": -38.70205,
+      "longitud": -72.54113,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 19
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 37,
+      "linea": 8,
+      "latitud": -38.73793,
+      "longitud": -72.58756,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 23,
+      "linea": 2,
+      "latitud": -38.73733,
+      "longitud": -72.59054,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 13
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 58,
+      "linea": 1,
+      "latitud": -38.70961,
+      "longitud": -72.55104,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 25
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 25,
+      "linea": 6,
+      "latitud": -38.71593,
+      "longitud": -72.55467,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 2
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 50,
+      "linea": 8,
+      "latitud": -38.7371,
+      "longitud": -72.58604,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 44,
+      "linea": 2,
+      "latitud": -38.7589,
+      "longitud": -72.6687,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 57
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 74,
+      "linea": 3,
+      "latitud": -38.74548,
+      "longitud": -72.58809,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 43,
+      "linea": 9,
+      "latitud": -38.68661,
+      "longitud": -72.65723,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 22,
+      "linea": 8,
+      "latitud": -38.73442,
+      "longitud": -72.5816,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 24
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 28,
+      "linea": 9,
+      "latitud": -38.68618,
+      "longitud": -72.65634,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 30
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 34,
+      "linea": 3,
+      "latitud": -38.73374,
+      "longitud": -72.58405,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 20
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 31,
+      "linea": 9,
+      "latitud": -38.71823,
+      "longitud": -72.62203,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 21
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 1,
+      "linea": 33,
+      "latitud": -38.47268,
+      "longitud": -71.94168,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 57
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 21,
+      "linea": 1,
+      "latitud": -38.76556,
+      "longitud": -72.74207,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 15
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 27,
+      "linea": 2,
+      "latitud": -38.75665,
+      "longitud": -72.64418,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 9
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 46,
+      "linea": 3,
+      "latitud": -38.71327,
+      "longitud": -72.62533,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 24
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 71,
+      "linea": 1,
+      "latitud": -38.75659,
+      "longitud": -72.62548,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 8
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 47,
+      "linea": 7,
+      "latitud": -38.73461,
+      "longitud": -72.61147,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 3,
+      "linea": 8,
+      "latitud": -38.73636,
+      "longitud": -72.58922,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 40,
+      "linea": 3,
+      "latitud": -38.76228,
+      "longitud": -72.59547,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 22
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 89,
+      "linea": 14,
+      "latitud": -38.74173,
+      "longitud": -72.95602,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 65,
+      "linea": 9,
+      "latitud": -38.72573,
+      "longitud": -72.56338,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 37
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 23,
+      "linea": 7,
+      "latitud": -38.73659,
+      "longitud": -72.60274,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 36
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 86,
+      "linea": 9,
+      "latitud": -38.71319,
+      "longitud": -72.63343,
+      "fecha": "2026-09-08T15:42:20",
+      "velocidad": 8
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 106,
+      "linea": 8,
+      "latitud": -38.74239,
+      "longitud": -72.58862,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 23
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 95,
+      "linea": 1,
+      "latitud": -38.73414,
+      "longitud": -72.63285,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 31
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 45,
+      "linea": 1,
+      "latitud": -38.67663,
+      "longitud": -72.50595,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 99,
+      "linea": 8,
+      "latitud": -38.76587,
+      "longitud": -72.5973,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 16,
+      "linea": 2,
+      "latitud": -38.70273,
+      "longitud": -72.54062,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 73,
+      "linea": 3,
+      "latitud": -38.74112,
+      "longitud": -72.58696,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 52,
+      "linea": 3,
+      "latitud": -38.71451,
+      "longitud": -72.6315,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 45,
+      "linea": 7,
+      "latitud": -38.71085,
+      "longitud": -72.65119,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 22
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 48,
+      "linea": 2,
+      "latitud": -38.75725,
+      "longitud": -72.66182,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 18
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 104,
+      "linea": 8,
+      "latitud": -38.87515,
+      "longitud": -72.62616,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 45
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 89,
+      "linea": 2,
+      "latitud": -38.742,
+      "longitud": -72.59464,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 30
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 61,
+      "linea": 6,
+      "latitud": -38.63296,
+      "longitud": -72.44154,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 72,
+      "linea": 6,
+      "latitud": -38.74122,
+      "longitud": -72.61817,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 39
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 78,
+      "linea": 7,
+      "latitud": -38.74185,
+      "longitud": -72.59506,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 26
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 38,
+      "linea": 2,
+      "latitud": -38.73596,
+      "longitud": -72.59237,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 18
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 14,
+      "linea": 6,
+      "latitud": -38.86049,
+      "longitud": -72.60731,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 17,
+      "linea": 8,
+      "latitud": -38.76826,
+      "longitud": -72.59819,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 31
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 28,
+      "linea": 2,
+      "latitud": -38.71591,
+      "longitud": -72.56099,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 81,
+      "linea": 2,
+      "latitud": -38.73627,
+      "longitud": -72.59005,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 12,
+      "linea": 3,
+      "latitud": -38.73829,
+      "longitud": -72.58763,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 51,
+      "linea": 8,
+      "latitud": -38.76741,
+      "longitud": -72.59598,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 4
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 37,
+      "linea": 20,
+      "latitud": -39.27936,
+      "longitud": -72.2267,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 18
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 78,
+      "linea": 6,
+      "latitud": -38.73882,
+      "longitud": -72.59897,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 27
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 25,
+      "linea": 33,
+      "latitud": -38.45588,
+      "longitud": -71.93099,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 46
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 66,
+      "linea": 1,
+      "latitud": -38.67902,
+      "longitud": -72.50428,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 4
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 28,
+      "linea": 20,
+      "latitud": -39.31338,
+      "longitud": -72.2311,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 30
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 56,
+      "linea": 6,
+      "latitud": -38.76597,
+      "longitud": -72.60921,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 19
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 18,
+      "linea": 2,
+      "latitud": -38.7453,
+      "longitud": -72.59889,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 6
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 82,
+      "linea": 8,
+      "latitud": -38.77136,
+      "longitud": -72.58293,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 88,
+      "linea": 1,
+      "latitud": -38.75727,
+      "longitud": -72.66399,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 36
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 96,
+      "linea": 1,
+      "latitud": -38.73768,
+      "longitud": -72.58809,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 10
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 56,
+      "linea": 8,
+      "latitud": -38.73823,
+      "longitud": -72.5862,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 27
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 68,
+      "linea": 7,
+      "latitud": -38.73328,
+      "longitud": -72.58086,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 32
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 26,
+      "linea": 7,
+      "latitud": -38.72844,
+      "longitud": -72.62663,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 35
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 68,
+      "linea": 6,
+      "latitud": -38.73269,
+      "longitud": -72.5912,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 17
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 40,
+      "linea": 6,
+      "latitud": -38.73639,
+      "longitud": -72.5891,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 35,
+      "linea": 8,
+      "latitud": -38.77154,
+      "longitud": -72.57985,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 18
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 46,
+      "linea": 8,
+      "latitud": -38.75103,
+      "longitud": -72.58902,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 36
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 54,
+      "linea": 7,
+      "latitud": -38.72551,
+      "longitud": -72.62946,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 34
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 70,
+      "linea": 6,
+      "latitud": -38.71685,
+      "longitud": -72.55184,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 15,
+      "linea": 8,
+      "latitud": -38.77156,
+      "longitud": -72.58362,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 48,
+      "linea": 3,
+      "latitud": -38.71505,
+      "longitud": -72.63109,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 79,
+      "linea": 7,
+      "latitud": -38.71405,
+      "longitud": -72.6461,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 12
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 19,
+      "linea": 1,
+      "latitud": -38.73293,
+      "longitud": -72.61626,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 36,
+      "linea": 8,
+      "latitud": -38.77163,
+      "longitud": -72.58184,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 35
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 7,
+      "linea": 2,
+      "latitud": -38.76487,
+      "longitud": -72.74189,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 4
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 32,
+      "linea": 1,
+      "latitud": -38.73209,
+      "longitud": -72.61868,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 29
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 35,
+      "linea": 3,
+      "latitud": -38.7702,
+      "longitud": -72.59712,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 12
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 25,
+      "linea": 3,
+      "latitud": -38.73446,
+      "longitud": -72.57923,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 4,
+      "linea": 8,
+      "latitud": -38.74005,
+      "longitud": -72.58815,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 20
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 95,
+      "linea": 3,
+      "latitud": -38.76079,
+      "longitud": -72.60246,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 50,
+      "linea": 7,
+      "latitud": -38.73706,
+      "longitud": -72.60048,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 23
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 30,
+      "linea": 7,
+      "latitud": -38.73661,
+      "longitud": -72.5878,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 3
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 112,
+      "linea": 3,
+      "latitud": -38.73932,
+      "longitud": -72.58646,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 70,
+      "linea": 9,
+      "latitud": -38.73758,
+      "longitud": -72.5807,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 41,
+      "linea": 6,
+      "latitud": -38.71828,
+      "longitud": -72.62181,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 50
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 108,
+      "linea": 8,
+      "latitud": -38.82745,
+      "longitud": -72.62156,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 36
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 24,
+      "linea": 33,
+      "latitud": -38.4379,
+      "longitud": -71.88755,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 21
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 53,
+      "linea": 8,
+      "latitud": -38.73821,
+      "longitud": -72.58768,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 57,
+      "linea": 3,
+      "latitud": -38.73849,
+      "longitud": -72.58765,
+      "fecha": "2026-09-08T15:42:17",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 60,
+      "linea": 14,
+      "latitud": -39.17756,
+      "longitud": -73.16996,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 84,
+      "linea": 2,
+      "latitud": -38.72423,
+      "longitud": -72.56886,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 10
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 8,
+      "linea": 7,
+      "latitud": -38.72615,
+      "longitud": -72.57669,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 29
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 57,
+      "linea": 3,
+      "latitud": -38.73849,
+      "longitud": -72.58765,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 78,
+      "linea": 1,
+      "latitud": -38.73598,
+      "longitud": -72.63329,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 31
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 55,
+      "linea": 8,
+      "latitud": -38.77129,
+      "longitud": -72.58326,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 42,
+      "linea": 1,
+      "latitud": -38.75776,
+      "longitud": -72.7733,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 25
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 95,
+      "linea": 2,
+      "latitud": -38.70257,
+      "longitud": -72.5408,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 94,
+      "linea": 1,
+      "latitud": -38.73188,
+      "longitud": -72.6215,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 13
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 65,
+      "linea": 8,
+      "latitud": -38.73836,
+      "longitud": -72.58766,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 98,
+      "linea": 8,
+      "latitud": -38.75979,
+      "longitud": -72.65091,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 27
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 83,
+      "linea": 3,
+      "latitud": -38.71904,
+      "longitud": -72.62366,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 32
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 27,
+      "linea": 1,
+      "latitud": -38.69053,
+      "longitud": -72.51827,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 13
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 19,
+      "linea": 8,
+      "latitud": -38.7528,
+      "longitud": -72.58762,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 27
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 46,
+      "linea": 7,
+      "latitud": -38.7357,
+      "longitud": -72.58146,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 102,
+      "linea": 3,
+      "latitud": -38.72234,
+      "longitud": -72.61142,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 21
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 25,
+      "linea": 7,
+      "latitud": -38.73395,
+      "longitud": -72.61396,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 69,
+      "linea": 8,
+      "latitud": -38.77707,
+      "longitud": -72.60379,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 36
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 61,
+      "linea": 8,
+      "latitud": -38.75336,
+      "longitud": -72.61217,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 16,
+      "linea": 7,
+      "latitud": -38.7099,
+      "longitud": -72.66327,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 9
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 10,
+      "linea": 9,
+      "latitud": -38.68678,
+      "longitud": -72.6575,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 104,
+      "linea": 3,
+      "latitud": -38.72772,
+      "longitud": -72.60896,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 23
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 64,
+      "linea": 8,
+      "latitud": -38.73337,
+      "longitud": -72.41432,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 8,
+      "linea": 3,
+      "latitud": -38.8698,
+      "longitud": -72.39536,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 10
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 85,
+      "linea": 3,
+      "latitud": -38.6413,
+      "longitud": -72.784,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 61
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 42,
+      "linea": 8,
+      "latitud": -38.73268,
+      "longitud": -72.64028,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 28
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 44,
+      "linea": 3,
+      "latitud": -38.78359,
+      "longitud": -72.58739,
+      "fecha": "2026-09-08T15:43:00",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 44,
+      "linea": 20,
+      "latitud": -39.30498,
+      "longitud": -72.22002,
+      "fecha": "2026-09-08T15:42:31",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 21,
+      "linea": 2,
+      "latitud": -38.71259,
+      "longitud": -72.55299,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 41
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 83,
+      "linea": 7,
+      "latitud": -38.71368,
+      "longitud": -72.64447,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 113,
+      "linea": 31,
+      "latitud": -38.72503,
+      "longitud": -72.5724,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 1
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 21,
+      "linea": 9,
+      "latitud": -38.72859,
+      "longitud": -72.56817,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 15
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 71,
+      "linea": 3,
+      "latitud": -38.83479,
+      "longitud": -72.51669,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 58
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 43,
+      "linea": 2,
+      "latitud": -38.76164,
+      "longitud": -72.75374,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 33
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 10,
+      "linea": 1,
+      "latitud": -38.73863,
+      "longitud": -72.58186,
+      "fecha": "2026-09-08T15:42:23",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 101,
+      "linea": 1,
+      "latitud": -38.73711,
+      "longitud": -72.5916,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 43
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 97,
+      "linea": 9,
+      "latitud": -38.73331,
+      "longitud": -72.60088,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 9
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 24,
+      "linea": 2,
+      "latitud": -38.74007,
+      "longitud": -72.60157,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 39
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 5,
+      "linea": 8,
+      "latitud": -38.73532,
+      "longitud": -72.60949,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 22
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 48,
+      "linea": 7,
+      "latitud": -38.73562,
+      "longitud": -72.58274,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 84,
+      "linea": 1,
+      "latitud": -38.67684,
+      "longitud": -72.50597,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 44,
+      "linea": 1,
+      "latitud": -38.68162,
+      "longitud": -72.50359,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 10
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 104,
+      "linea": 1,
+      "latitud": -38.72605,
+      "longitud": -72.5639,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 10
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 83,
+      "linea": 8,
+      "latitud": -38.73663,
+      "longitud": -72.58748,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 23
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 18,
+      "linea": 7,
+      "latitud": -38.70448,
+      "longitud": -72.55196,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 54
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 50,
+      "linea": 1,
+      "latitud": -38.76188,
+      "longitud": -72.68547,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 98,
+      "linea": 1,
+      "latitud": -38.76288,
+      "longitud": -72.73064,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 47
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 80,
+      "linea": 7,
+      "latitud": -38.68076,
+      "longitud": -72.52194,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 73
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 64,
+      "linea": 7,
+      "latitud": -38.71336,
+      "longitud": -72.65365,
+      "fecha": "2026-09-08T15:42:33",
+      "velocidad": 12
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 6,
+      "linea": 6,
+      "latitud": -38.72885,
+      "longitud": -72.62077,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 7
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 10,
+      "linea": 8,
+      "latitud": -38.75911,
+      "longitud": -72.59709,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 24
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 80,
+      "linea": 9,
+      "latitud": -38.71754,
+      "longitud": -72.655,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 20
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 87,
+      "linea": 9,
+      "latitud": -38.6878,
+      "longitud": -72.65034,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 10
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 13,
+      "linea": 6,
+      "latitud": -38.73213,
+      "longitud": -72.56328,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 109,
+      "linea": 1,
+      "latitud": -38.67919,
+      "longitud": -72.5045,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 22
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 11,
+      "linea": 6,
+      "latitud": -38.63564,
+      "longitud": -72.4552,
+      "fecha": "2026-09-08T15:42:37",
+      "velocidad": 37
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 8,
+      "linea": 8,
+      "latitud": -38.77155,
+      "longitud": -72.58331,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 58,
+      "linea": 7,
+      "latitud": -38.71823,
+      "longitud": -72.6502,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 18
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 38,
+      "linea": 3,
+      "latitud": -38.85124,
+      "longitud": -72.4466,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 47
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 31,
+      "linea": 3,
+      "latitud": -38.73803,
+      "longitud": -72.5876,
+      "fecha": "2026-09-08T15:42:32",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 94,
+      "linea": 3,
+      "latitud": -38.73641,
+      "longitud": -72.58891,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 59,
+      "linea": 14,
+      "latitud": -38.69091,
+      "longitud": -72.53545,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 52
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 45,
+      "linea": 8,
+      "latitud": 0,
+      "longitud": 0,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 62,
+      "linea": 3,
+      "latitud": -38.72635,
+      "longitud": -72.60814,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 12
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 101,
+      "linea": 3,
+      "latitud": -38.73688,
+      "longitud": -72.58595,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 12
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 12,
+      "linea": 2,
+      "latitud": -38.73031,
+      "longitud": -72.57427,
+      "fecha": "2026-09-08T15:42:37",
+      "velocidad": 25
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 34,
+      "linea": 1,
+      "latitud": -38.76587,
+      "longitud": -72.75183,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 29
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 68,
+      "linea": 3,
+      "latitud": -38.77582,
+      "longitud": -72.59701,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 48,
+      "linea": 8,
+      "latitud": -38.73599,
+      "longitud": -72.63984,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 2,
+      "linea": 8,
+      "latitud": -38.75553,
+      "longitud": -72.59159,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 21
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 80,
+      "linea": 2,
+      "latitud": -38.71567,
+      "longitud": -72.5551,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 4
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 73,
+      "linea": 1,
+      "latitud": -38.71586,
+      "longitud": -72.5552,
+      "fecha": "2026-09-08T15:42:37",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 10,
+      "linea": 6,
+      "latitud": -38.71589,
+      "longitud": -72.55468,
+      "fecha": "2026-09-08T15:42:37",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 24,
+      "linea": 6,
+      "latitud": -38.71415,
+      "longitud": -72.61969,
+      "fecha": "2026-09-08T15:42:37",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 107,
+      "linea": 8,
+      "latitud": -38.76815,
+      "longitud": -72.61591,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 63,
+      "linea": 1,
+      "latitud": -38.73739,
+      "longitud": -72.58303,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 12
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 36,
+      "linea": 6,
+      "latitud": -38.74199,
+      "longitud": -72.60221,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 31
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 15,
+      "linea": 2,
+      "latitud": -38.73696,
+      "longitud": -72.5855,
+      "fecha": "2026-09-08T15:42:37",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 13,
+      "linea": 1,
+      "latitud": -38.7478,
+      "longitud": -72.63581,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 32
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 99,
+      "linea": 3,
+      "latitud": -38.75858,
+      "longitud": -72.59867,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 14
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 44,
+      "linea": 9,
+      "latitud": -38.73215,
+      "longitud": -72.57172,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 10,
+      "linea": 7,
+      "latitud": -38.71363,
+      "longitud": -72.56147,
+      "fecha": "2026-09-08T15:42:37",
+      "velocidad": 29
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 92,
+      "linea": 8,
+      "latitud": 0,
+      "longitud": 0,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 38,
+      "linea": 9,
+      "latitud": -38.73807,
+      "longitud": -72.58092,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 7
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 16,
+      "linea": 9,
+      "latitud": -38.72498,
+      "longitud": -72.6311,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 12
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 39,
+      "linea": 9,
+      "latitud": -38.68451,
+      "longitud": -72.65302,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 20,
+      "linea": 33,
+      "latitud": -38.54213,
+      "longitud": -72.43836,
+      "fecha": "2026-09-08T15:42:37",
+      "velocidad": 27
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 81,
+      "linea": 9,
+      "latitud": -38.71694,
+      "longitud": -72.55274,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 32
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 9,
+      "linea": 33,
+      "latitud": -38.72505,
+      "longitud": -72.57257,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 12
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 110,
+      "linea": 1,
+      "latitud": -38.73452,
+      "longitud": -72.57804,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 6
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 3,
+      "linea": 33,
+      "latitud": -38.49034,
+      "longitud": -72.28807,
+      "fecha": "2026-09-08T15:42:37",
+      "velocidad": 52
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 35,
+      "linea": 6,
+      "latitud": -38.72753,
+      "longitud": -72.60327,
+      "fecha": "2026-09-08T15:42:37",
+      "velocidad": 25
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 67,
+      "linea": 6,
+      "latitud": -38.73831,
+      "longitud": -72.58373,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 48,
+      "linea": 6,
+      "latitud": -38.73737,
+      "longitud": -72.58267,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 3,
+      "linea": 2,
+      "latitud": -38.70639,
+      "longitud": -72.55726,
+      "fecha": "2026-09-08T15:42:37",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 110,
+      "linea": 3,
+      "latitud": -38.74521,
+      "longitud": -72.58804,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 12
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 22,
+      "linea": 2,
+      "latitud": -38.76098,
+      "longitud": -72.69558,
+      "fecha": "2026-09-08T15:42:37",
+      "velocidad": 64
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 45,
+      "linea": 3,
+      "latitud": -38.76989,
+      "longitud": -72.58687,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 34
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 16,
+      "linea": 6,
+      "latitud": -38.73875,
+      "longitud": -72.59924,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 21,
+      "linea": 6,
+      "latitud": -38.71452,
+      "longitud": -72.61757,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 17
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 19,
+      "linea": 7,
+      "latitud": -38.71272,
+      "longitud": -72.65123,
+      "fecha": "2026-09-08T15:42:38",
+      "velocidad": 17
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 80,
+      "linea": 1,
+      "latitud": -38.73702,
+      "longitud": -72.5915,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 76,
+      "linea": 8,
+      "latitud": -38.77155,
+      "longitud": -72.5809,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 26
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 93,
+      "linea": 2,
+      "latitud": -38.76123,
+      "longitud": -72.74604,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 30
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 2,
+      "linea": 33,
+      "latitud": -38.73415,
+      "longitud": -72.58035,
+      "fecha": "2026-09-08T15:42:38",
+      "velocidad": 1
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 32,
+      "linea": 3,
+      "latitud": -38.73767,
+      "longitud": -72.56811,
+      "fecha": "2026-09-08T15:42:34",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 123,
+      "linea": 3,
+      "latitud": -38.7141,
+      "longitud": -72.6325,
+      "fecha": "2026-09-08T15:42:37",
+      "velocidad": 3
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 64,
+      "linea": 3,
+      "latitud": -38.64125,
+      "longitud": -72.78933,
+      "fecha": "2026-09-08T15:42:37",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 66,
+      "linea": 9,
+      "latitud": -38.7344,
+      "longitud": -72.59561,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 28
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 63,
+      "linea": 8,
+      "latitud": -38.75946,
+      "longitud": -72.64691,
+      "fecha": "2026-09-08T15:42:37",
+      "velocidad": 19
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 7,
+      "linea": 9,
+      "latitud": -38.70911,
+      "longitud": -72.6588,
+      "fecha": "2026-09-08T15:42:38",
+      "velocidad": 22
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 28,
+      "linea": 6,
+      "latitud": -38.72878,
+      "longitud": -72.56752,
+      "fecha": "2026-09-08T15:42:38",
+      "velocidad": 25
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 46,
+      "linea": 2,
+      "latitud": -38.75664,
+      "longitud": -72.64519,
+      "fecha": "2026-09-08T15:42:38",
+      "velocidad": 48
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 76,
+      "linea": 3,
+      "latitud": -38.7557,
+      "longitud": -72.59179,
+      "fecha": "2026-09-08T15:42:37",
+      "velocidad": 3
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 30,
+      "linea": 2,
+      "latitud": -38.71555,
+      "longitud": -72.55494,
+      "fecha": "2026-09-08T15:42:28",
+      "velocidad": 36
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 47,
+      "linea": 6,
+      "latitud": -38.71994,
+      "longitud": -72.55806,
+      "fecha": "2026-09-08T15:42:38",
+      "velocidad": 44
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 26,
+      "linea": 2,
+      "latitud": -38.76734,
+      "longitud": -72.76265,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 43,
+      "linea": 1,
+      "latitud": -38.67701,
+      "longitud": -72.5062,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 107,
+      "linea": 1,
+      "latitud": -38.67684,
+      "longitud": -72.5061,
+      "fecha": "2026-09-08T15:42:39",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 101,
+      "linea": 8,
+      "latitud": -38.74638,
+      "longitud": -72.60915,
+      "fecha": "2026-09-08T15:42:37",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 117,
+      "linea": 8,
+      "latitud": -38.786,
+      "longitud": -72.70865,
+      "fecha": "2026-09-08T15:42:38",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 74,
+      "linea": 2,
+      "latitud": -38.73305,
+      "longitud": -72.57552,
+      "fecha": "2026-09-08T15:42:35",
+      "velocidad": 17
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 38,
+      "linea": 8,
+      "latitud": -38.74217,
+      "longitud": -72.58711,
+      "fecha": "2026-09-08T15:42:38",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 57,
+      "linea": 7,
+      "latitud": -38.71019,
+      "longitud": -72.66136,
+      "fecha": "2026-09-08T15:42:39",
+      "velocidad": 9
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 1,
+      "linea": 1,
+      "latitud": -38.74491,
+      "longitud": -72.61675,
+      "fecha": "2026-09-08T15:42:39",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 39,
+      "linea": 2,
+      "latitud": -38.75702,
+      "longitud": -72.65098,
+      "fecha": "2026-09-08T15:42:39",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 26,
+      "linea": 1,
+      "latitud": -38.69465,
+      "longitud": -72.52641,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 43
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 39,
+      "linea": 7,
+      "latitud": -38.7356,
+      "longitud": -72.58145,
+      "fecha": "2026-09-08T15:42:38",
+      "velocidad": 6
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 30,
+      "linea": 6,
+      "latitud": -38.71366,
+      "longitud": -72.63204,
+      "fecha": "2026-09-08T15:42:38",
+      "velocidad": 27
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 32,
+      "linea": 6,
+      "latitud": -38.72768,
+      "longitud": -72.6089,
+      "fecha": "2026-09-08T15:42:39",
+      "velocidad": 17
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 49,
+      "linea": 7,
+      "latitud": -38.7124,
+      "longitud": -72.55754,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 35
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 2,
+      "linea": 7,
+      "latitud": -38.71425,
+      "longitud": -72.5584,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 39
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 19,
+      "linea": 3,
+      "latitud": -38.71204,
+      "longitud": -72.63424,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 44
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 93,
+      "linea": 8,
+      "latitud": -38.75276,
+      "longitud": -72.66344,
+      "fecha": "2026-09-08T15:42:36",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 88,
+      "linea": 3,
+      "latitud": -38.73285,
+      "longitud": -72.60787,
+      "fecha": "2026-09-08T15:42:39",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 87,
+      "linea": 2,
+      "latitud": -38.76081,
+      "longitud": -72.74924,
+      "fecha": "2026-09-08T15:42:38",
+      "velocidad": 13
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 91,
+      "linea": 8,
+      "latitud": -38.73618,
+      "longitud": -72.59053,
+      "fecha": "2026-09-08T15:42:39",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 62,
+      "linea": 8,
+      "latitud": -38.73646,
+      "longitud": -72.59478,
+      "fecha": "2026-09-08T15:42:38",
+      "velocidad": 11
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 15,
+      "linea": 1,
+      "latitud": -38.76183,
+      "longitud": -72.68085,
+      "fecha": "2026-09-08T15:42:39",
+      "velocidad": 63
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 38,
+      "linea": 1,
+      "latitud": -38.7348,
+      "longitud": -72.61152,
+      "fecha": "2026-09-08T15:42:39",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 118,
+      "linea": 3,
+      "latitud": -38.87264,
+      "longitud": -72.39214,
+      "fecha": "2026-09-08T15:42:38",
+      "velocidad": 27
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 75,
+      "linea": 9,
+      "latitud": -38.73631,
+      "longitud": -72.60401,
+      "fecha": "2026-09-08T15:42:37",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 67,
+      "linea": 3,
+      "latitud": -38.73761,
+      "longitud": -72.58745,
+      "fecha": "2026-09-08T15:42:39",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 22,
+      "linea": 9,
+      "latitud": -38.71589,
+      "longitud": -72.56118,
+      "fecha": "2026-09-08T15:42:30",
+      "velocidad": 25
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 27,
+      "linea": 9,
+      "latitud": -38.73592,
+      "longitud": -72.59238,
+      "fecha": "2026-09-08T15:42:38",
+      "velocidad": 6
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 41,
+      "linea": 9,
+      "latitud": -38.73477,
+      "longitud": -72.61159,
+      "fecha": "2026-09-08T15:42:38",
+      "velocidad": 0
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 3,
+      "linea": 9,
+      "latitud": -38.71462,
+      "longitud": -72.65308,
+      "fecha": "2026-09-08T15:42:37",
+      "velocidad": 9
+    },
+    {
+      "modulo_id": 6,
+      "instruccion": 12,
+      "maquina": 80,
+      "linea": 8,
+      "latitud": -38.82038,
+      "longitud": -72.62344,
+      "fecha": "2026-09-08T15:42:29",
+      "velocidad": 4
+    }
+  ]
+}
