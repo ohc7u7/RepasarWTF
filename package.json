@@ -3,7 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "bun run modulo.js"
+    "start": "bun run modulo.js",
+    "verify:gate": "bun run verificar-gate.js"
   },
   "dependencies": {
     "express": "^5.1.0"
