@@ -1,0 +1,8 @@
+# Preserve source bytes: the live verification records a SHA-256 of modulo.js.
+*.js -text
+*.json -text
+*.py -text
+*.md text eol=lf
+bun.lock text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
