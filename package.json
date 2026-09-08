@@ -2,7 +2,9 @@
   "name": "gate-modulo",
   "private": true,
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "start": "bun run modulo.js"
+  },
   "dependencies": {
     "express": "^5.1.0"
   }
