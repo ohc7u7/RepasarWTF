@@ -9,7 +9,7 @@ El repositorio remoto estaba vacío al preparar la entrega: no existían `develo
 | Referencia | Propósito |
 | --- | --- |
 | `develop` local | Commit base con configuración de Bun, dependencia Express y reglas de Git. |
-| `wea` / `origin/wea` | Implementación completa, verificación del stream real, evidencia y documentación. |
+| `wea` / `origin/wea` | Receptor de 30 líneas, evidencia del stream real y documentación. |
 | `main` | No se crea, modifica ni publica durante esta entrega. |
 
 Commit base: `e45016802c5b61c7d96c861993b7d96ca0aeb22a`.
@@ -23,6 +23,8 @@ e450168  base local de develop
 
 ## Commits de la actividad
 
+Los seis commits iniciales conservan la primera versión en el historial. La revisión simplificada reduce el programa completo a 30 líneas y retira sus scripts auxiliares. La nueva evidencia corresponde a esa revisión.
+
 El formato utilizado es `tipo(alcance): descripción`. El cuerpo de cada commit explica su propósito.
 
 | Commit | Contenido |
@@ -33,6 +35,8 @@ El formato utilizado es `tipo(alcance): descripción`. El cuerpo de cada commit 
 | `feat(delivery): generate schema-validated activity report` | Generador del entregable y esquema de validación. |
 | `docs(evidence): record live GATE stream verification` | Evidencia de recepción y entregable correspondiente al código verificado. |
 | `docs(project): document GATE protocol and Gitflow integration` | Ejecución, guía del protocolo y procedimiento de integración. |
+| `refactor(gate): simplify GPS receiver to 30 lines` | Receptor en un solo archivo y eliminación de los scripts auxiliares. |
+| `docs(gate): document and verify simplified live receiver` | Guía actualizada y evidencia de 301 posiciones recibidas del GATE real. |
 
 No se incluyen dependencias instaladas, archivos temporales, logs ni archivos de simulación. Las posiciones de `verificacion-gate.json` proceden de la sesión real registrada en el propio informe.
 
@@ -50,10 +54,10 @@ bun install --frozen-lockfile
 Con acceso de red al servidor `192.168.0.8:9067`, ejecutar una sola instancia:
 
 ```powershell
-bun run verify:gate
+bun start
 ```
 
-Este comando conecta al GATE y reemplaza los informes de verificación con una nueva observación. Para recibir continuamente, ejecutar `bun start`. Consultar el [README](../README.md) para los detalles del funcionamiento.
+Este comando conecta al GATE e imprime cada posición recibida. Ctrl+C detiene el programa. Los informes guardados documentan una observación concreta y no se reemplazan al ejecutar el receptor. Consultar el [README](../README.md) para los detalles del funcionamiento.
 
 ## Crear develop en el remoto
 
@@ -101,4 +105,4 @@ La integración en `main` queda fuera del alcance de esta entrega.
 
 ## Conservación de la evidencia
 
-El informe incluye la huella SHA-256 de `modulo.js`. `.gitattributes` preserva los bytes de los archivos JavaScript al clonar, para que un cambio automático de finales de línea no invalide esa referencia. Si se modifica el receptor, ejecutar nuevamente la verificación real y regenerar el entregable antes de registrar nuevas evidencias.
+El informe incluye la huella SHA-256 de `modulo.js`. `.gitattributes` preserva los bytes de los archivos JavaScript al clonar, para que un cambio automático de finales de línea no invalide esa referencia. Si se modifica el receptor, observar nuevamente el stream real y actualizar la evidencia y el entregable: la observación anterior solo acredita el archivo identificado por su huella.
