@@ -2,6 +2,8 @@
 
 [modulo.js](modulo.js) conecta al GATE real **192.168.0.8:9067**, se registra como **módulo 6** y muestra posiciones GPS en JSON. Todo el programa está en ese archivo: Express es la única dependencia y Bun proporciona el socket TCP.
 
+`modulo.js` conserva las 30 líneas de lógica y sus comentarios JSDoc. [modulo-sin-comentarios.js.txt](modulo-sin-comentarios.js.txt) es una copia de consulta con esas mismas 30 líneas, sin comentarios. Se mantiene un único punto de ejecución: `bun start` inicia `modulo.js`; la copia no se importa ni se incluye en los comandos de ejecución.
+
 ## Ejecutar
 
 Con Bun instalado y acceso a la red del GATE, desde la carpeta del proyecto:
