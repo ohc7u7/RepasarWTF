@@ -1,90 +1,105 @@
-# Receptor GPS con NestJS y Bun
+# GPS del GATE con NestJS y Bun
 
-[modulo.js](modulo.js) utiliza **NestJS** para gestionar un proveedor único y **Bun.connect** para recibir el stream real de **192.168.0.8:9067**. El programa conserva 30 líneas de lógica, con comentarios JSDoc. La [copia sin comentarios](modulo-sin-comentarios.js.txt) es solo de consulta.
+[modulo.js](modulo.js) conecta al stream real de **192.168.0.8:9067**, se registra como módulo y muestra las posiciones GPS en JSON. NestJS gestiona el receptor y su cierre.
+
+Toda la lógica ocupa **30 líneas en `modulo.js`**, sin comentarios ni archivos auxiliares de código. Las explicaciones están en este documento y en la [guía del programa](docs/GUIA_MODULO.md).
 
 ## Ejecutar
 
-En una copia nueva del repositorio:
+Desde la carpeta del proyecto:
 
 ```powershell
 bun install --frozen-lockfile
-$env:GATE_MODULO_ID = '6'
 bun start
 ```
 
-La variable `GATE_MODULO_ID` es el ID con el que **nuestro cliente** solicita registrarse. Debe contener un byte entero de 0 a 255. El código no tiene un ID predeterminado: si falta, termina antes de abrir TCP.
+**Ctrl+C** detiene la recepción. Ejecutar una sola instancia por ID. Si la conexión termina, volver a ejecutar `bun start`.
 
-El valor `6` del comando es el ejemplo del PDF y el ID que se utilizó para verificar el stream. Que el servidor lo haya aceptado en esa observación no constituye un catálogo de IDs disponibles; usar el asignado a este cliente cuando el administrador lo indique.
+## Cambiar el ID
 
-La variable permanece en esa sesión de PowerShell. En una terminal nueva, definirla otra vez antes de iniciar. No se necesita un archivo de configuración adicional.
+Editar únicamente esta constante en la **línea 4** de [modulo.js](modulo.js):
 
-**Ctrl+C** cierra la aplicación y su socket. Ejecutar una sola instancia por ID. Si se corta la conexión, volver a ejecutar `bun start`.
+```javascript
+const ID_MODULO = 6;
+```
 
-## Qué significa «módulo»
+No se usa `.env` ni una variable de entorno para configurar el ID. El valor debe ser un entero entre 0 y 255. El 6 fue aceptado en la verificación registrada; utilizar el ID asignado a este cliente cuando se indique.
 
-| Dato | Significado y procedencia |
+El programa calcula el LOGIN y su CRC a partir de esta constante. `bun start` ejecuta únicamente `modulo.js`; se retiró la copia de consulta `modulo-sin-comentarios.js.txt`.
+
+## La función connect
+
+La conexión utiliza la función de la biblioteca nativa de Bun:
+
+```javascript
+import { connect } from 'bun';
+```
+
+Dentro de `crearReceptor`, la línea 12 llama a `await connect` con `hostname: '192.168.0.8'` y `port: 9067`. Es la misma función que `Bun.connect`; no requiere instalar otro paquete. Véase la [API oficial de conexión TCP](https://bun.com/reference/bun/connect).
+
+## Cómo leer el programa
+
+| Función | Qué hace |
 | --- | --- |
-| `GateModule` | Clase que organiza el proveedor dentro de NestJS. No es un ID de GATE. |
-| `modulo_receptor_id` | ID de nuestra sesión TCP, tomado de `GATE_MODULO_ID` y enviado en el LOGIN. |
-| `maquina` | Identificador del equipo que generó el GPS, leído de Datos[1]. |
-| `linea` | Línea del equipo, leída de Datos[2]. |
-| `modulo_origen_id` | `null`: la instrucción GPS documentada no contiene el ID de otro módulo. |
+| `registrar` | Escribe diagnósticos JSON en stderr. |
+| `calcularCRC` | Comprueba la integridad de los bytes mediante CRC-16. |
+| `crearReceptor` | Abre la conexión y organiza sus ocho eventos. |
+| `enviar` | Envía LOGIN y conserva lo pendiente si la escritura fue parcial. |
+| `fallar` | Registra el fallo y termina la conexión. |
+| `data` | Reconstruye tramas, envía LOGIN, obtiene GPS y lo imprime. |
 
-El PDF define los módulos como **programas externos conectados al GATE**. Las posiciones GPS las generan las boleteras. La cabecera GPS es **12-Máquina-Línea**. Por eso el cliente recibe muchas máquinas y líneas sin que cada posición pertenezca a un módulo de software diferente.
+Las líneas 28–30 crean el contexto de Nest. `GateModule` agrupa el proveedor `GATE_TCP`: Nest invoca `crearReceptor` una vez y, al cerrar la aplicación, `onModuleDestroy` termina el socket.
 
-Bun entrega los bytes recibidos; no agrega identificadores que no estén en ellos. Para relacionar una posición con otro módulo haría falta un campo adicional documentado o un catálogo del sistema. El programa no inventa esa relación.
+## Registro y recepción
 
-## Cómo recibe GPS
+1. `connect` abre TCP y `open` espera la confirmación del GATE.
+2. `data` recibe bytes y espera a tener una trama completa.
+3. Cuando Datos contiene `[200, 0]`, se envía LOGIN con el ID del cliente y filtros **12** (GPS) y **104** (diagnósticos).
+4. El GATE reenvía las instrucciones de esa suscripción; no se consulta cada posición por separado.
+5. El programa valida el CRC, decodifica GPS y muestra un objeto JSON por posición válida.
 
-1. `NestFactory.createApplicationContext` crea `GateModule` y su proveedor `GATE_TCP`, mediante `crearReceptor`.
-2. El proveedor abre un socket con `Bun.connect` al GATE y espera su confirmación.
-3. Al recibir Datos `[200, 0]`, construye y envía LOGIN: `[124, 5, 200, ID_CLIENTE, 2, 12, 104, CRC_bajo, CRC_alto]`.
-4. Los filtros solicitan **12** (GPS) y **104** (diagnósticos de módulo). El GATE reenvía las instrucciones de la suscripción.
-5. `data` reconstruye tramas completas, comprueba el CRC y decodifica cada GPS válido.
-6. Cada posición se imprime en JSON. Al cerrar Nest, `onModuleDestroy` termina el socket.
+Una trama tiene `ID + Count + Datos + CRC` y ocupa `Count + 4` bytes. `buffer` conserva fragmentos y permite procesar varias tramas concatenadas.
 
-El receptor utiliza los ocho eventos: `open`, `data`, `drain`, `close`, `error`, `connectError`, `end` y `timeout`. `drain` completa escrituras parciales; el timeout de inactividad es de 120 segundos.
+El CRC del GATE comprobado usa polinomio `0x1021`, inicio cero, cobertura de Datos y orden bajo/alto. Se admite también la confirmación literal del PDF como compatibilidad.
 
-La confirmación literal del PDF se admite como compatibilidad. El CRC comprobado con este GATE usa polinomio `0x1021`, inicio cero, cobertura de Datos y orden bajo/alto.
+## Identificar el origen
 
-## Decodificación
+| Campo de salida | Procedencia |
+| --- | --- |
+| `modulo_receptor_id` | ID_MODULO: identifica nuestro cliente. |
+| `maquina` y `linea` | Datos[1] y Datos[2]: identifican el origen GPS. |
+| `modulo_origen_id` | `null`: el protocolo documentado no incluye el ID de otro módulo en GPS. |
 
-Offsets desde cero dentro de **Datos**, después de retirar ID, Count y CRC:
+Un módulo GATE es un programa externo conectado al servidor; `GateModule` es una clase de NestJS. El mismo cliente recibe posiciones de muchas máquinas y líneas.
 
-| Campo | Bytes | Tratamiento |
+Offsets desde cero dentro de Datos:
+
+| Campo | Bytes | Conversión |
 | --- | --- | --- |
 | Instrucción | 0 | Se selecciona 12. |
-| Máquina / línea | 1 / 2 | Se conservan los valores recibidos, sin filtro fijo. |
-| Latitud / longitud | 3–6 / 7–10 | Enteros big-endian divididos por `-100000`. |
+| Latitud / longitud | 3–6 / 7–10 | Enteros big-endian divididos por -100000. |
 | Fecha | 11–16 | Día, mes, año, hora, minuto y segundos; segundos con `& 127`. |
-| Velocidad | 17 | Valor original, sin conversión. |
+| Velocidad | 17 | Valor recibido, sin conversión. |
 
-Se exige el bloque GPS fijo de 22 bytes y se ignoran las extensiones. Un ACK corto no contiene una posición. Se descartan CRC, fechas y coordenadas inválidos.
+Se exige el bloque GPS fijo de 22 bytes; se ignoran los ACK cortos y las extensiones. Se rechazan CRC, coordenadas y fechas inválidos. La fecha conserva la hora del dispositivo sin asignarle zona horaria, y la velocidad no recibe una unidad que el PDF no especifica.
 
-La hora del dispositivo se conserva sin asignarle zona horaria. La velocidad no recibe una unidad que el PDF no especifica. El GATE puede reenviar posiciones acumuladas: «tiempo real» describe su procesamiento al llegar.
+## Salida y verificación
 
-## Salida y alcance
-
-En la terminal se muestra un JSON con un campo por línea. Para guardar el stream:
+La terminal muestra un JSON con un campo por línea. Para guardar las posiciones y los diagnósticos separados:
 
 ```powershell
 bun run modulo.js 1> gps.ndjson 2> gate-eventos.log
 ```
 
-La redirección reemplaza los archivos anteriores. `stdout` contiene posiciones y `stderr` diagnósticos.
+La redirección reemplaza archivos anteriores. El programa no abre un servidor HTTP ni una visualización. Tiene timeout de inactividad de 120 segundos y reinicio manual.
 
-Nest funciona como contexto de aplicación, sin adaptador HTTP, controladores, interfaz visual ni mapas. La conexión es única y el reinicio es manual.
+La última observación real recibió **484 posiciones de 442 combinaciones máquina/línea en 15 segundos**, con **0 errores CRC** y **4 GPS rechazados** por coordenadas fuera de rango.
 
-## Evidencia de esta versión
+- [verificacion-nest-gate.json](verificacion-nest-gate.json): todas las posiciones y SHA-256 del código observado.
+- [verificacion-nest-gate.md](verificacion-nest-gate.md): resumen legible.
+- [entregable_modulo_v1.json](entregable_modulo_v1.json): código y explicación según el [esquema](esquema_modulo_v1.json).
+- [Flujo Git](docs/GITFLOW.md): entrega en wea e integración posterior.
 
-La verificación del **9 de septiembre de 2026** recibió **490 posiciones** de **451 combinaciones máquina/línea** en 15 segundos: **0 errores CRC** y **3 GPS rechazados** por coordenadas fuera de rango. El ID de registro usado fue 6, como configuración de la sesión de prueba. Todas las posiciones guardadas proceden del stream real.
+Los informes acreditan una ejecución concreta y no se reemplazan al ejecutar `bun start`.
 
-- [verificacion-nest-gate.json](verificacion-nest-gate.json): posiciones completas, diagnósticos y SHA-256 del código verificado.
-- [verificacion-nest-gate.md](verificacion-nest-gate.md): resumen de esa observación.
-- [Guía del PDF al código](docs/GUIA_MODULO.md): recorrido de las ocho secciones del protocolo.
-- [entregable_modulo_v1.json](entregable_modulo_v1.json): código, explicación y supuestos según el [esquema](esquema_modulo_v1.json).
-- [Flujo Git](docs/GITFLOW.md): rama `wea` e integración posterior.
-
-Los informes acreditan una observación concreta. `bun start` imprime el stream y no reemplaza esos archivos. Las evidencias de versiones anteriores permanecen en el historial de Git; la evidencia actual de Nest está en los archivos nuevos.
-
-Referencias: **Detalle de Tramas de GATE**, secciones 5, 6.2 y 8; [contexto de aplicación de NestJS](https://docs.nestjs.com/standalone-applications), [proveedores de NestJS](https://docs.nestjs.com/fundamentals/custom-providers) y [TCP de Bun](https://bun.com/docs/runtime/networking/tcp).
+Referencias: **Detalle de Tramas de GATE**, secciones 5, 6.2 y 8; [NestJS sin servidor HTTP](https://docs.nestjs.com/standalone-applications) y [TCP de Bun](https://bun.com/docs/runtime/networking/tcp).

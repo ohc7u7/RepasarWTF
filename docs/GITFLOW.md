@@ -10,8 +10,8 @@ Los mensajes usan `tipo(alcance): descripción`, con un cuerpo que explica prop�
 
 | Revisión actual | Responsabilidad |
 | --- | --- |
-| `feat(nest): migrate GATE receiver to standalone NestJS` | Dependencias, proveedor único, configuración de registro y origen GPS. |
-| `docs(nest): document protocol identities and live GPS evidence` | Ejecución, explicación del protocolo y evidencia real de la migración. |
+| `refactor(gate): keep native receiver within 30 uncommented lines` | Toda la lógica en 30 líneas, connect de Bun e ID_MODULO dentro del archivo. |
+| `docs(gate): refresh beginner guide and real stream verification` | Ejecución directa, explicación externa y evidencia real de esta revisión. |
 
 ## Revisar la rama
 
@@ -19,11 +19,10 @@ Los mensajes usan `tipo(alcance): descripción`, con un cuerpo que explica prop�
 git clone --branch wea https://github.com/ohc7u7/RepasarWTF.git
 Set-Location -LiteralPath 'RepasarWTF'
 bun install --frozen-lockfile
-$env:GATE_MODULO_ID = '6'
 bun start
 ```
 
-Definir `GATE_MODULO_ID` según el ID de cliente asignado; 6 es el valor utilizado en la observación registrada. La copia `modulo-sin-comentarios.js.txt` es de consulta; el único comando de inicio ejecuta `modulo.js`.
+Cambiar `ID_MODULO` únicamente en `modulo.js` según el ID de cliente asignado. El único comando de inicio ejecuta ese archivo; no se requiere configurar variables de entorno.
 
 ## Preparar develop e integrar
 

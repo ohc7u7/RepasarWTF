@@ -1,45 +1,52 @@
-# Del PDF al receptor NestJS + Bun
+# Guía breve del receptor
 
-**GATE** recibe datos de las boleteras. Un **módulo GATE** es un programa externo que se registra para recibir instrucciones. **GateModule**, en cambio, es la clase organizativa de NestJS: los dos conceptos no comparten un ID.
+Todo el código ejecutable ocupa **30 líneas** en [modulo.js](../modulo.js), sin comentarios internos. Para cambiar el cliente que se registra, editar `const ID_MODULO = 6` en la línea 4. No hay configuración del ID por entorno.
 
-La instrucción GPS contiene **máquina y línea**. El ID de nuestro receptor se configura antes del LOGIN; el ID de otros módulos no aparece en esa instrucción y se representa como desconocido, `null`.
+## Recorrido principal
 
-## Las ocho secciones en el código
+`NestFactory → GateModule → crearReceptor → connect → data → consola`
 
-| Sección del PDF | Aplicación en modulo.js |
+Nest crea el proveedor una sola vez y lo cierra al finalizar. La función `connect` se importa directamente de `bun`; es la API TCP nativa de Bun.
+
+## Cómo se registra
+
+La línea 9 prepara `registro` con Datos `[200, ID_MODULO, 2, 12, 104]`: instrucción LOGIN, ID del cliente, dos filtros, GPS y diagnósticos. `calcularCRC` calcula su verificación.
+
+`open` anuncia la apertura TCP. Al recibir la confirmación `[200, 0]` del GATE, la línea 19 añade al registro el identificador 124, la longitud 5 y el CRC. Pone el LOGIN completo en `pendientes` y llama a `enviar`. Esta función transmite con `socket.write`; `drain` permite enviar el resto si la escritura fue parcial.
+
+La variable `registroSolicitado` impide volver a solicitar el registro en la misma conexión. No representa un ACK de aceptación del módulo.
+
+## Las ocho secciones del PDF
+
+| Sección | Parte del programa |
 | --- | --- |
-| 1. Tramas | El bucle de `data` reconstruye mensajes de `Count + 4` bytes. |
-| 2. Identificador | Reconoce 123/124; el registro del módulo utiliza 124. |
-| 3. Número de datos | `buffer[1]` contiene Count. Si falta parte de la trama, espera otra recepción. |
-| 4. CRC | `crc(datos)` verifica la integridad con el perfil comprobado contra el GATE real. |
-| 5. Datos | `trama.subarray(2, -2)` deja instrucción, máquina, línea y parámetros. |
-| 6. Instrucciones | Decodifica GPS 12 de cualquier máquina y línea. |
-| 7. Consola | No se solicita instrucción 80 porque la actividad obtiene GPS. |
-| 8. Módulos | Tras la confirmación, envía LOGIN con el ID configurado y filtros 12 y 104. |
+| 1. Tramas | El bucle de data reconstruye cada mensaje. |
+| 2. Identificador | Acepta 123/124; el LOGIN usa 124. |
+| 3. Número de datos | buffer[1] contiene Count; total = Count + 4 delimita la trama. |
+| 4. CRC | calcularCRC valida la integridad. |
+| 5. Datos | trama.subarray(2, -2) retira la envoltura. |
+| 6. Instrucciones | Las líneas 20–25 seleccionan e interpretan la instrucción 12. |
+| 7. Consola | No se solicita instrucción 80 en esta actividad. |
+| 8. Módulos | registro y enviar registran el cliente en GATE con sus filtros. |
 
-## Funciones y NestJS
+## Qué hace cada evento
 
-- `log`: escribe diagnósticos estructurados en stderr.
-- `crc`: calcula los 16 bits de integridad sobre el campo Datos.
-- `crearReceptor`: fábrica del proveedor único `GATE_TCP`; valida el ID y abre la conexión.
-- `enviar`: transmite el LOGIN por `socket.write`; `drain` permite completar lo pendiente.
-- `fallar`: registra un error, fija salida 1 y termina el socket.
-- `data`: atiende el saludo, valida tramas y convierte los bytes GPS en JSON.
-- `onModuleDestroy`: hook que Nest invoca para cerrar el socket al finalizar.
-- `GateModule`: agrupa el proveedor; `createApplicationContext` lo inicia sin servidor HTTP.
+| Evento | Acción |
+| --- | --- |
+| open | Activa el timeout y anuncia la conexión. |
+| data | Acumula bytes, valida tramas, envía LOGIN y obtiene GPS. |
+| drain | Continúa el envío pendiente. |
+| error / connectError | Llaman a fallar. |
+| close | Registra el cierre. |
+| end | Cierra el socket cuando el servidor termina el stream. |
+| timeout | Cierra por inactividad mediante fallar. |
 
-Los demás eventos TCP anuncian apertura y cierre, atienden el fin remoto y cierran ante errores o inactividad. El código incluye comentarios JSDoc breves en cada parte.
+## De bytes a JSON
 
-## Dónde se solicita el registro
+Dentro de `data`, las líneas 21–25 extraen máquina y línea de los bytes 1 y 2 de Datos. Las coordenadas son enteros big-endian de cuatro bytes divididos por -100000. La fecha usa los bytes 11–16; el segundo se obtiene con `& 127` y `padStart(2, '0')` completa cada componente con dos dígitos.
 
-`crearReceptor → Bun.connect → open → data([200,0]) → enviar(LOGIN) → data(GPS) → consola`
+La validación UTC solo comprueba que la fecha sea válida; el texto emitido conserva la hora original sin zona. `velocidad` es el byte 17, sin cálculo por distancia ni unidad supuesta.
 
-En `registro` se preparan `[200, ID_CLIENTE, 2, 12, 104]`. La condición `datos[0] === 200 && datos[1] === 0` dentro de `data` construye la envoltura y llama a `enviar(socket)`. Desde entonces, GATE reenvía las instrucciones suscritas; no hay una consulta periódica por cada posición.
+`modulo_receptor_id` procede de ID_MODULO. `modulo_origen_id: null` indica que la trama no contiene ese dato: las identidades de origen disponibles son máquina y línea.
 
-## Origen de los valores
-
-Latitud y longitud son enteros de cuatro bytes big-endian divididos por `-100000`. La fecha procede de los bytes 11–16 y conserva la hora del dispositivo. `datos[16] & 127` retira el bit adicional de los segundos; UTC se usa únicamente para comprobar la fecha.
-
-**Velocidad es `datos[17]`**, sin cálculo por distancia ni unidad supuesta. **Máquina y línea** son `datos[1]` y `datos[2]`. `modulo_receptor_id` procede de la configuración local; `modulo_origen_id: null` indica que no se recibió ese dato.
-
-Consulta [README.md](../README.md) para ejecutar y revisar la evidencia del stream real.
+`registrar` escribe diagnósticos; `calcularCRC` comprueba los bytes; `crearReceptor` reúne la conexión, `enviar` y `fallar`. Las líneas 28–30 inician Nest y habilitan el cierre. Consultar [README.md](../README.md) para ejecutar y revisar la evidencia real.
