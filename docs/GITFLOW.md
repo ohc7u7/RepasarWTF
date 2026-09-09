@@ -1,108 +1,50 @@
-# Flujo Git de la entrega
+# Flujo Git de la actividad
 
-La actividad se entrega en la rama **`wea`**, con commits organizados por responsabilidad y mensajes Conventional Commits. Esta rama cumple la función de una rama de funcionalidad en Gitflow; conserva el nombre solicitado para la actividad.
+La versión actual utiliza NestJS y Bun y se publica únicamente en **wea**. Esta rama cumple el papel de rama de funcionalidad, conservando el nombre solicitado. La integración en **develop** queda a cargo del responsable; **main** queda fuera de esta entrega.
 
-El repositorio remoto estaba vacío al preparar la entrega: no existían `develop` ni `main`. Se creó una base **local** en `develop` y, desde ella, la rama `wea`. Solo se publica `wea`; la creación remota de `develop` y el merge quedan a cargo del responsable del repositorio.
+El remoto estaba vacío al comenzar. La base local de `develop` es el commit `e45016802c5b61c7d96c861993b7d96ca0aeb22a`. Las versiones anteriores permanecen en el historial.
 
-## Ramas y base común
+## Convención de commits
 
-| Referencia | Propósito |
+Los mensajes usan `tipo(alcance): descripción`, con un cuerpo que explica propósito y validación.
+
+| Revisión actual | Responsabilidad |
 | --- | --- |
-| `develop` local | Commit base con configuración de Bun, dependencia Express y reglas de Git. |
-| `wea` / `origin/wea` | Receptor de 30 líneas, evidencia del stream real y documentación. |
-| `main` | No se crea, modifica ni publica durante esta entrega. |
+| `feat(nest): migrate GATE receiver to standalone NestJS` | Dependencias, proveedor único, configuración de registro y origen GPS. |
+| `docs(nest): document protocol identities and live GPS evidence` | Ejecución, explicación del protocolo y evidencia real de la migración. |
 
-Commit base: `e45016802c5b61c7d96c861993b7d96ca0aeb22a`.
-
-```text
-e450168  base local de develop
-   |
-   +-- feat(gate) -- feat(verification) -- feat(delivery)
-       -- docs(evidence) -- docs(project)  [wea]
-```
-
-## Commits de la actividad
-
-Los seis commits iniciales conservan la primera versión en el historial. La revisión simplificada reduce el programa completo a 30 líneas y retira sus scripts auxiliares. La nueva evidencia corresponde a esa revisión.
-
-El formato utilizado es `tipo(alcance): descripción`. El cuerpo de cada commit explica su propósito.
-
-| Commit | Contenido |
-| --- | --- |
-| `chore(project): initialize Bun and Express workspace` | Dependencias, archivo de bloqueo y exclusión de archivos generados. |
-| `feat(gate): receive and decode live GPS telemetry` | Conexión TCP nativa, LOGIN, filtros, CRC, decodificación y salida JSON. |
-| `feat(verification): capture complete GPS reports from GATE` | Observación real de 15 segundos, todas las posiciones y diagnósticos legibles. |
-| `feat(delivery): generate schema-validated activity report` | Generador del entregable y esquema de validación. |
-| `docs(evidence): record live GATE stream verification` | Evidencia de recepción y entregable correspondiente al código verificado. |
-| `docs(project): document GATE protocol and Gitflow integration` | Ejecución, guía del protocolo y procedimiento de integración. |
-| `refactor(gate): simplify GPS receiver to 30 lines` | Receptor en un solo archivo y eliminación de los scripts auxiliares. |
-| `docs(gate): document and verify simplified live receiver` | Guía actualizada y evidencia de 301 posiciones recibidas del GATE real. |
-
-No se incluyen dependencias instaladas, archivos temporales, logs ni archivos de simulación. Las posiciones de `verificacion-gate.json` proceden de la sesión real registrada en el propio informe.
-
-## Revisar la entrega
-
-Desde una copia nueva:
+## Revisar la rama
 
 ```powershell
 git clone --branch wea https://github.com/ohc7u7/RepasarWTF.git
 Set-Location -LiteralPath 'RepasarWTF'
-git log --oneline --decorate
 bun install --frozen-lockfile
-```
-
-Con acceso de red al servidor `192.168.0.8:9067`, ejecutar una sola instancia:
-
-```powershell
+$env:GATE_MODULO_ID = '6'
 bun start
 ```
 
-Este comando conecta al GATE e imprime cada posición recibida. Ctrl+C detiene el programa. Los informes guardados documentan una observación concreta y no se reemplazan al ejecutar el receptor. Consultar el [README](../README.md) para los detalles del funcionamiento.
+Definir `GATE_MODULO_ID` según el ID de cliente asignado; 6 es el valor utilizado en la observación registrada. La copia `modulo-sin-comentarios.js.txt` es de consulta; el único comando de inicio ejecuta `modulo.js`.
 
-## Crear develop en el remoto
+## Preparar develop e integrar
 
-Estos pasos los realiza el responsable de la integración. Primero comprobar si alguien ya creó la rama:
+Comprobar primero si la rama remota ya existe:
 
 ```powershell
 git fetch origin
 git ls-remote --heads origin develop
 ```
 
-Si no aparece una referencia, publicar la base. En la carpeta original de la actividad, la rama local `develop` ya está preparada:
-
-```powershell
-git push -u origin develop
-```
-
-En una copia nueva, crear primero la rama local desde el commit base y publicarla:
+Si aún no existe, desde la carpeta original la base local ya está preparada y el responsable puede publicarla con `git push -u origin develop`. En una copia nueva debe crearla primero con:
 
 ```powershell
 git branch develop e45016802c5b61c7d96c861993b7d96ca0aeb22a
 git push -u origin develop
 ```
 
-Si `origin/develop` ya existe, utilizar esa rama y revisar sus cambios antes de integrar. No reemplazarla por la base ni forzar el push.
+Si `origin/develop` ya existe, revisar esa rama; no reemplazarla ni forzar el push. Crear luego un pull request con **base develop** y **compare wea**, usando un merge commit para conservar los commits por responsabilidad.
 
-## Integrar wea en develop
+## Evidencia
 
-Una vez que ambas ramas estén publicadas, crear un pull request en GitHub con:
+[verificacion-nest-gate.json](../verificacion-nest-gate.json) contiene la observación de la versión NestJS y la huella SHA-256 de su fuente. Una modificación del código requiere una nueva observación para acreditar esa revisión.
 
-- **Base:** `develop`.
-- **Compare:** `wea`.
-- **Método de integración:** `Create a merge commit`, para conservar los commits por responsabilidad.
-
-Como alternativa, si se continúa desde la base recién publicada y el árbol de trabajo está limpio, el responsable puede integrar mediante Git:
-
-```powershell
-git fetch origin
-git switch develop
-git pull --ff-only origin develop
-git merge --no-ff origin/wea -m "chore(release): integrate GATE activity into develop"
-git push origin develop
-```
-
-La integración en `main` queda fuera del alcance de esta entrega.
-
-## Conservación de la evidencia
-
-El informe incluye la huella SHA-256 de `modulo.js`. `.gitattributes` preserva los bytes de los archivos JavaScript al clonar, para que un cambio automático de finales de línea no invalide esa referencia. Si se modifica el receptor, observar nuevamente el stream real y actualizar la evidencia y el entregable: la observación anterior solo acredita el archivo identificado por su huella.
+Se excluyen de Git `.env`, dependencias instaladas, temporales y logs. Las posiciones incluidas en la evidencia proceden del GATE real.
